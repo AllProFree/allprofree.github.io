@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>آل پرو فری | مفت ڈیجیٹل سکلز اور اسلامی تعلیم</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@500;700&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#10163f;--bg:#f5f7fb;--card:#fff;--muted:#4b5275;--emerald:#0b8f6a;--amber:#f2b134;--line:#dde2ef;--hero:#10163f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#eef1ff;--bg:#0b1030;--card:#141b45;--muted:#aab2dd;--line:#27306a;--hero:#070b22}}
+:root[data-theme="dark"]{--ink:#eef1ff;--bg:#0b1030;--card:#141b45;--muted:#aab2dd;--line:#27306a;--hero:#070b22}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg)}
+#apf{background:var(--bg);color:var(--ink);font-family:"Noto Naskh Arabic",Tahoma,serif;font-size:18px;line-height:2}
+h1,h2,h3{font-family:"Noto Nastaliq Urdu","Noto Naskh Arabic",serif;line-height:1.9;margin:0}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--hero);z-index:10}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--hero);color:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px}
+.logo{font-family:"Noto Nastaliq Urdu",serif;font-weight:700;font-size:22px;white-space:nowrap}
+nav{display:flex;gap:18px;font-size:16px;overflow-x:auto}nav a{opacity:.85;white-space:nowrap}nav a:hover{opacity:1;color:var(--amber)}
+.hero{background:var(--hero);color:#fff;padding:48px 0 60px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Cpath d='M45 8l9 21 22-3-13 18 13 18-22-3-9 21-9-21-22 3 13-18-13-18 22 3z' fill='none' stroke='%23ffffff' stroke-opacity='.07' stroke-width='1.2'/%3E%3C/svg%3E")}
+.hero h1{font-size:clamp(40px,9vw,80px);color:var(--amber)}
+.hero p{max-width:34em;font-size:20px;opacity:.92;margin:10px 0 24px}
+.btn{display:inline-block;padding:9px 24px;border-radius:999px;font-weight:600;border:2px solid var(--amber);margin-inline-start:10px}
+.btn.main{background:var(--amber);color:#10163f}.btn.alt{color:#fff}
+section{padding:52px 0 0}
+.head h2{font-size:clamp(26px,5vw,38px)}.head p{color:var(--muted);margin:2px 0 18px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.tabs button{font:inherit;font-weight:600;padding:6px 20px;border-radius:999px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--emerald);border-color:var(--emerald);color:#fff}
+.intro{background:var(--card);border:1px solid var(--line);border-inline-start:6px solid var(--amber);border-radius:14px;padding:12px 18px;margin-bottom:16px;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:12px;margin-bottom:14px;font-size:16px;color:var(--muted)}
+.bar i{flex:1;height:10px;background:var(--line);border-radius:9px;overflow:hidden}.bar i b{display:block;height:100%;width:0;background:var(--emerald);transition:width .3s}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px}
+summary{cursor:pointer;padding:10px 18px;font-weight:600;display:flex;justify-content:space-between;gap:10px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary span{color:var(--muted);font-weight:400;font-size:15px;white-space:nowrap}
+details[open] summary{border-bottom:1px solid var(--line)}
+ol{list-style:none;margin:0;padding:6px 18px 10px;counter-reset:l}
+li{counter-increment:l;display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:2px 0;border-bottom:1px dashed var(--line)}
+li:last-child{border:0}
+li::before{content:counter(l);min-width:28px;height:28px;border-radius:50%;background:var(--bg);display:grid;place-items:center;font:600 14px/1 sans-serif;color:var(--muted)}
+li input{width:20px;height:20px;accent-color:var(--emerald)}
+li button{flex:1;font:inherit;font-size:17px;background:none;border:0;color:inherit;text-align:start;cursor:pointer;padding:0}li button:hover{color:var(--emerald)}
+li.done>button{text-decoration:line-through;opacity:.6}
+.tx{flex-basis:100%;margin:0 0 8px;margin-inline-start:40px;padding:10px 14px;background:var(--bg);border-radius:10px;color:var(--muted);font-size:16.5px;line-height:2}
+.note{margin-top:14px;font-size:15.5px;color:var(--muted)}
+.cta{background:var(--hero);color:#fff;text-align:center;border-radius:26px;padding:44px 20px;margin-top:56px}
+.cta h2{font-size:clamp(24px,5vw,36px);color:var(--amber)}.cta p{opacity:.9;margin:4px 0 20px}
+footer{padding:26px 0 40px;color:var(--muted);font-size:15px;text-align:center}
+header .wrap{flex-wrap:wrap}
+.tools{display:flex;gap:8px}
+.chip{font:inherit;font-size:15px;padding:0 14px;border-radius:999px;border:2px solid var(--amber);background:none;color:#fff;cursor:pointer}
+.chip:hover{background:rgba(255,255,255,.12)}
+.by{font-size:clamp(20px,4vw,28px);color:#fff;opacity:.9}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin-bottom:14px}
+.card h3{font-size:20px;margin-bottom:6px}
+.upd{display:flex;gap:12px;padding:4px 0;border-bottom:1px dashed var(--line)}
+.upd:last-child{border:0}.upd time{color:var(--emerald);font-size:15px;white-space:nowrap}
+.dh{font-weight:600;font-size:20px}
+.mk{display:block;margin-top:8px;font:inherit;font-size:15px;padding:0 16px;border-radius:999px;border:2px solid var(--emerald);background:none;color:var(--emerald);cursor:pointer}
+.calhead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px;font-weight:600}
+.calhead button{font:inherit;font-size:15px;padding:0 14px;border-radius:999px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;text-align:center}
+.cal b{font-size:13px;color:var(--muted);font-weight:600}
+.cal button{font:inherit;font-size:16px;min-height:44px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;line-height:1.2}
+.cal button:disabled{opacity:.35;cursor:default}
+.cal button.today{border:2px solid var(--amber)}
+.cal button.sel{background:var(--emerald);color:#fff;border-color:var(--emerald)}
+.cal button.all::after{content:" ✓"}
+.modal{position:fixed;inset:0;background:rgba(7,11,34,.7);display:grid;place-items:center;z-index:20;padding:20px}
+.modal[hidden]{display:none}
+.modal .box{background:var(--card);border-radius:20px;padding:24px;max-width:420px;width:100%}
+.modal input{width:100%;font:inherit;padding:6px 14px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);margin:10px 0}
+.modal .btn{font:inherit;cursor:pointer;margin:0 0 6px;margin-inline-end:8px}
+.modal .btn[hidden]{display:none}
+.btn.alt2{color:var(--ink);border-color:var(--line);background:none}
+.num{font-size:26px;font-weight:600;color:var(--amber);margin:4px 0 14px}
+#apf[lang=en]{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.7}
+#apf[lang=en] h1,#apf[lang=en] h2,#apf[lang=en] h3{font-family:Georgia,"Times New Roman",serif;line-height:1.3}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{width:42px;height:42px;border-radius:50%;object-fit:cover;border:2px solid var(--amber);background:var(--amber)}
+.heroin{display:flex;flex-wrap:wrap;align-items:center;gap:24px}
+.me{width:150px;height:150px;border-radius:50%;object-fit:cover;border:4px solid var(--amber)}
+.courses{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:16px}
+.cc{font:inherit;text-align:start;background:var(--card);color:var(--ink);border:1px solid var(--line);border-top:5px solid var(--emerald);border-radius:16px;padding:12px 18px;cursor:pointer;display:flex;flex-direction:column;gap:0}
+.cc b{font-family:"Noto Nastaliq Urdu","Noto Naskh Arabic",serif;font-size:19px;line-height:1.9}
+#apf[lang=en] .cc b{font-family:Georgia,serif;line-height:1.4}
+.cc span{color:var(--muted);font-size:15px}
+.cc:hover{border-color:var(--amber);border-top-color:var(--amber)}
+.cc:nth-child(4n+2){border-top-color:var(--amber)}.cc:nth-child(4n+3){border-top-color:#5b6ef5}.cc:nth-child(4n+4){border-top-color:#e0517a}
+.gb{font:inherit;font-size:15px;margin:8px 18px 0;padding:0 16px;border-radius:999px;border:2px solid var(--amber);background:none;color:var(--ink);cursor:pointer}
+.yl{display:block;margin-top:6px;font-size:15px;color:var(--emerald);text-decoration:underline}
+.gbox{max-height:86vh;overflow:auto}
+.gbox h4{font-size:17px;margin:10px 0 2px;color:var(--emerald)}
+.gbox ol{padding:0}
+.about p{margin:0;color:var(--muted)}
+.rs{font:inherit;cursor:pointer;margin:10px 0 0}
+.srch{width:100%;font:inherit;padding:4px 18px;border-radius:999px;border:2px solid var(--line);background:var(--card);color:var(--ink);margin-bottom:14px}
+.fl h5{font-size:15px;color:var(--emerald);margin:8px 0 0;font-family:inherit}.fl p{margin:0}.fl ol{padding:0;margin:0}
+.qq{margin:10px 0}.qq p{margin:0 0 4px;font-weight:600}
+.qo{display:block;width:100%;text-align:start;font:inherit;font-size:16px;margin:4px 0;padding:0 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.qr{display:block;font-weight:600}.qr.ok{color:var(--emerald)}.qr.bad{color:#e0517a}
+.certimg{width:100%;border-radius:12px;border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div id="apf" lang="ur" dir="rtl">
+<header><div class="wrap"><a class="logo" href="#top"><img id="photo1" alt="Qari Gulzar Ahmad" width="42" height="42"><span data-i="brand"></span></a>
+<nav><a href="#courses-s" data-i="nCourses"></a><a href="#daily" data-i="nDaily"></a><a href="#learn" data-i="nLearn"></a><a href="#contact" data-i="nContact"></a></nav>
+<div class="tools"><button class="chip" id="lang" type="button"></button><button class="chip" id="login" type="button"></button></div></div></header>
+<main id="top">
+<div class="hero"><div class="wrap heroin"><img class="me" id="photo2" alt="Qari Gulzar Ahmad" width="150" height="150"><div>
+<h1 data-i="brand"></h1><h2 class="by" data-i="teacher"></h2><p data-i="heroP"></p>
+<a class="btn main" style="margin:0" href="https://www.youtube.com/@AllProFree" target="_blank" rel="noopener" data-i="yt"></a>
+<a class="btn alt" href="#daily" data-i="nDaily"></a>
+<a class="btn alt" href="tel:03129824324" dir="ltr">03129824324</a>
+</div></div></div>
+<section id="courses-s"><div class="wrap"><div class="head"><h2 data-i="coursesT"></h2><p data-i="coursesP"></p></div><div class="courses" id="courses"></div><div class="card about"><h3 data-i="aboutT"></h3><p data-i="aboutP"></p></div></div></section>
+<section id="daily"><div class="wrap">
+<div class="head"><h2 data-i="dailyT"></h2><p data-i="dailyP"></p></div>
+<div class="card"><h3 data-i="updT"></h3><div id="upd"></div></div>
+<div class="card"><div id="day"></div><button class="btn alt2 rs" id="restart" type="button" data-i="restart"></button></div>
+<div class="card" id="cal"></div>
+</div></section>
+<section id="learn"><div class="wrap">
+<div class="head"><h2 data-i="learnT"></h2><p data-i="learnP"></p></div>
+<input class="srch" id="srch" type="search"><div id="sres"></div>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div id="panel" role="tabpanel"></div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="cta">
+<h2 data-i="ctaT"></h2>
+<p><span data-i="teacher"></span> — <span data-i="brand"></span></p>
+<p dir="ltr" class="num">03129824324</p>
+<a class="btn main" style="margin:0" href="tel:03129824324" data-i="callB"></a>
+<a class="btn alt" href="https://wa.me/923129824324" target="_blank" rel="noopener" data-i="waB"></a>
+<a class="btn alt" href="https://www.youtube.com/@AllProFree" target="_blank" rel="noopener" data-i="yt"></a>
+</div></div></section>
+</main>
+<footer><div class="wrap" data-i="footer"></div></footer>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true"><div class="box">
+<h3 data-i="loginT"></h3><p data-i="loginP"></p>
+<input id="uname" type="text" maxlength="30" autocomplete="name">
+<button class="btn main" id="ok" type="button" data-i="ok"></button>
+<button class="btn alt2" id="no" type="button" data-i="close"></button>
+<button class="btn alt2" id="out" type="button" data-i="out" hidden></button>
+</div></div>
+<div class="modal" id="gmodal" hidden role="dialog" aria-modal="true"><div class="box gbox"><h3 id="gt"></h3><div id="gb"></div><a class="btn main" style="margin:0" href="https://www.youtube.com/@AllProFree" target="_blank" rel="noopener" data-i="ytMore"></a> <button class="btn alt2" id="gno" type="button" data-i="close"></button></div></div>
+</div>
+<script>
+
+/* سبق کے عنوان یہاں ہیں اور ان کی تحریر نیچے TXT میں، اسی ترتیب سے۔ */
+var CH="https://www.youtube.com/@AllProFree";
+var DATA=[
+{id:"kids",tab:"بچوں کا نصاب",intro:"چار سے پانچ سال کے بچوں کے لیے سالانہ نصاب: 12 مہینے، ہر مہینے 5 سبق، کل 60 سبق۔",groups:[
+["پہلا مہینہ: حروف تہجی (1)",["الف، با، تا، ثا","جیم، حا، خا","دال، ذال، را، زا","سین، شین، صاد، ضاد","طا، ظا، عین، غین"]],
+["دوسرا مہینہ: حروف تہجی (2)",["فا، قاف، کاف","لام، میم، نون","واو، ہا، ہمزہ، یا","تمام حروف کی دہرائی","حروف کی مشق اور کھیل"]],
+["تیسرا مہینہ: حرکات",["زبر کی پہچان","زیر کی پہچان","پیش کی پہچان","تینوں حرکات اکٹھی","حرکات کی مشق"]],
+["چوتھا مہینہ: تنوین اور جزم",["دو زبر","دو زیر","دو پیش","جزم (سکون)","مشق اور دہرائی"]],
+["پانچواں مہینہ: مد اور شد",["مد کی پہچان","کھڑی زبر، زیر، پیش","شد کی پہچان","جوڑ کر پڑھنا","مشق اور دہرائی"]],
+["چھٹا مہینہ: چھوٹی سورتیں (1)",["سورۃ الفاتحہ (1)","سورۃ الفاتحہ (2)","سورۃ الناس","سورۃ الفلق","دہرائی"]],
+["ساتواں مہینہ: چھوٹی سورتیں (2)",["سورۃ الاخلاص","سورۃ اللہب","سورۃ النصر","سورۃ الکافرون","دہرائی"]],
+["آٹھواں مہینہ: مسنون دعائیں",["کھانے سے پہلے اور بعد کی دعا","سونے اور جاگنے کی دعا","گھر آنے اور جانے کی دعا","بیت الخلا کی دعا","والدین کے لیے دعا"]],
+["نواں مہینہ: پاکی اور نماز کی تیاری",["صفائی کی اہمیت","وضو کا طریقہ","اذان کے بعد کی دعا","نماز کی نیت اور قبلہ","نماز کے ارکان کی پہچان"]],
+["دسواں مہینہ: کلمے اور ایمان",["کلمہ طیبہ","کلمہ شہادت","کلمہ تمجید","اللہ کے نام (1)","اللہ کے نام (2)"]],
+["گیارہواں مہینہ: اسلامی آداب",["سلام کرنا","سچ بولنا","والدین کا ادب","استاد کا ادب","پڑوسی اور مہمان کے حقوق"]],
+["بارہواں مہینہ: دہرائی اور امتحان",["قاعدے کی دہرائی","سورتوں کی دہرائی","دعاؤں کی دہرائی","زبانی امتحان","سالانہ جشن اور انعام"]]
+]},
+{id:"adults",tab:"بڑوں کی اسلامی تعلیم",intro:"نوجوانوں اور بڑوں کے لیے تین ترتیب وار کورس: قرآن، عبادات اور روزمرہ مسائل۔",groups:[
+["قرآن اور تجوید",["مخارج الحروف","صفات الحروف","نون ساکن اور تنوین کے احکام","میم ساکن کے احکام","مدّات کے احکام","وقف اور ابتدا","عام غلطیاں اور ان کی درستی","روزانہ تلاوت کا نظام"]],
+["نماز اور عبادات",["وضو اور غسل کے مسائل","نماز کا مکمل طریقہ","نماز کی دعائیں اور اذکار","روزے کے مسائل","زکوٰۃ کے بنیادی مسائل","حج اور عمرہ کی بنیادی رہنمائی"]],
+["روزمرہ دینی مسائل",["حلال اور حرام کی بنیادی سمجھ","کاروبار اور کمائی کے آداب","گھر اور خاندان کے حقوق","سوشل میڈیا کے شرعی آداب","نیک عادتیں اور اخلاق","سیرت النبی ﷺ سے سبق"]]
+]},
+{id:"skills",tab:"ڈیجیٹل سکلز",intro:"پانچ مفت کورس: ہر کورس بنیادی باتوں سے شروع ہو کر اپنا پروجیکٹ بنانے پر ختم ہوتا ہے۔",groups:[
+["تھری ڈی اینیمیشن",["سافٹ ویئر کا تعارف","بنیادی اشکال بنانا","کردار کی ماڈلنگ","میٹریل اور رنگ","کردار میں حرکت ڈالنا","لائٹنگ اور کیمرہ","رینڈر اور ایکسپورٹ"]],
+["گرافک ڈیزائن",["ڈیزائن کے بنیادی اصول","رنگ اور فونٹ کا انتخاب","لوگو بنانا","یوٹیوب تھمب نیل","سوشل میڈیا پوسٹ ڈیزائن","اردو پوسٹر اور بینر","اپنا پورٹ فولیو بنانا"]],
+["ویڈیو ایڈیٹنگ",["ایڈیٹنگ ایپ کا تعارف","کلپس کاٹنا اور جوڑنا","آڈیو اور بیک گراؤنڈ میوزک","ٹرانزیشن اور ایفیکٹس","اردو سب ٹائٹل لگانا","رنگوں کی درستی","ایکسپورٹ اور اپ لوڈ"]],
+["اے آئی جنریشن",["اے آئی ٹولز کا تعارف","اچھا پرامپٹ لکھنا","اے آئی سے تصاویر بنانا","اے آئی سے ویڈیو بنانا","آواز اور اسکرپٹ بنانا","اے آئی مواد کو ایڈٹ کرنا","مکمل ویڈیو پروجیکٹ"]],
+["سوشل میڈیا مینجمنٹ",["پلیٹ فارمز کی سمجھ","پروفائل اور برانڈنگ","مواد کا ہفتہ وار منصوبہ","پوسٹ اور ریلز شیڈول کرنا","فالوورز بڑھانے کے طریقے","کمنٹس اور پیغامات سنبھالنا","رپورٹ اور آمدن کے مواقع"]]
+]}
+];
+var TXT={
+kids:[
+["ا ب ت ث: چاروں حروف کی شکل اور آواز پہچانیں۔ استاد بولے، بچہ دہرائے، پھر انگلی سے ہوا میں شکل بنائے۔","ج ح خ: تینوں کی شکل ملتی ہے، فرق نقطے کا ہے۔ نقطے والا اور بغیر نقطے والا حرف الگ کر کے دکھائیں۔","د ذ ر ز: یہ حروف اپنے بعد والے حرف سے نہیں جڑتے۔ کارڈز پر دیکھ کر نام اور آواز دہرائیں۔","س ش ص ض: س ش میں دندانے ہیں، ص ض میں گول پیٹ۔ ص اور ض موٹی آواز سے پڑھے جاتے ہیں۔","ط ظ ع غ: ط ظ موٹے حروف ہیں۔ ع کی آواز حلق سے نکلتی ہے، بچے کو آہستہ آہستہ مشق کروائیں۔"],
+["ف ق ک: ف اور ق کی آواز کا فرق سمجھائیں۔ ق موٹا اور گہرا ہے، ک باریک۔","ل م ن: تینوں حروف کی شکل اور آواز، پھر ان سے شروع ہونے والے آسان اردو الفاظ بتائیں۔","و ہ ء ی: آخری چار حروف مکمل کر کے حروف تہجی کی ترتیب پوری کریں۔","تمام حروف الف سے یا تک ترتیب سے پڑھوائیں، پھر الٹی ترتیب میں اور بے ترتیب کارڈز پر سنیں۔","حروف پہچانو کھیل: بچہ کارڈ اٹھا کر نام بتائے، صحیح جواب پر ستارہ۔ جو حروف کمزور ہوں ان کی نشاندہی کریں۔"],
+["زبر: حرف کے اوپر چھوٹی لکیر ہو تو “اَ” کی آواز آتی ہے، جیسے اَ بَ تَ۔ ہر حرف کے ساتھ دہرائیں۔","زیر: حرف کے نیچے لکیر ہو تو “اِ” کی آواز آتی ہے، جیسے اِ بِ تِ۔","پیش: حرف کے اوپر چھوٹی “و” جیسی علامت ہو تو “اُ” کی آواز آتی ہے، جیسے اُ بُ تُ۔","ایک ہی حرف کو تینوں حرکات کے ساتھ پڑھیں: بَ بِ بُ۔ پھر دوسرے حروف کے ساتھ دہرائیں۔","حرکات والے حروف تختی یا کاپی پر لکھ کر پڑھنے کی مشق کریں، غلطی پر نرمی سے درستی کریں۔"],
+["دو زبر: اس میں “ن” کی ہلکی سی آواز شامل ہوتی ہے، جیسے بً تً۔ آواز کو ذرا لمبا کر کے سنائیں۔","دو زیر: بٍ تٍ، آواز میں “ن” شامل ہوتا ہے۔ استاد کے ساتھ بار بار پڑھیں۔","دو پیش: بٌ تٌ۔ تینوں تنوین کا فرق سنیں اور پہچانیں۔","جزم یا سکون: حرف پر گول نشان ہو تو وہ رک کر پڑھا جاتا ہے، جیسے اَبْ۔ پہلا حرف حرکت والا، دوسرا ساکن۔","تنوین اور جزم والے الفاظ کی مشترکہ مشق اور تلفظ کی درستی۔"],
+["مد: جب حرف کی آواز تھوڑی لمبی کھینچ کر پڑھی جائے تو اسے مد کہتے ہیں۔ بچوں سے آواز کھینچنے کی مشق کروائیں۔","کھڑی زبر، کھڑی زیر اور الٹی پیش والے حروف: ان سے آواز لمبی ہو جاتی ہے، جیسے بٰ بٖ بٗ۔","شد: حرف پر شد ہو تو وہ دو بار پڑھا جاتا ہے، جیسے رَبَّ۔ پہلی بار سکون کے ساتھ، دوسری بار حرکت کے ساتھ۔","حروف کو جوڑ کر الفاظ پڑھنا: دو اور تین حروف والے آسان الفاظ پڑھوائیں۔","مد اور شد والے الفاظ کی مشق اور دہرائی۔"],
+["سورۃ الفاتحہ کی پہلی تین آیات: استاد ایک آیت پڑھے، بچے ساتھ دہرائیں۔ معنی بھی آسان اردو میں بتائیں۔","سورۃ الفاتحہ کی باقی آیات یاد کروائیں۔ پوری سورت ایک بار ترتیب سے سنیں اور سنائیں۔","سورۃ الناس: چھ آیات ہیں۔ ایک ایک آیت ہر روز دہرا کر مکمل یاد کریں۔","سورۃ الفلق: پانچ آیات ہیں۔ چھوٹے ٹکڑوں میں سنا اور دہرا کر یاد کروائیں۔","تینوں سورتیں ایک ساتھ سنیں اور سنائیں۔ ہر بچے کی باری لیں اور تلفظ درست کریں۔"],
+["سورۃ الاخلاص: چار آیات ہیں، اللہ کی وحدانیت کا بیان ہے۔ آسان معنی کے ساتھ یاد کروائیں۔","سورۃ اللہب: پانچ آیات۔ تلفظ پر خاص توجہ دیں اور چھوٹے ٹکڑوں میں یاد کروائیں۔","سورۃ النصر: تین آیات۔ اللہ کی مدد اور شکر کا پیغام سمجھائیں۔","سورۃ الکافرون: چھ آیات۔ بار بار دہرا کر یاد کروائیں۔","مہینے کی چاروں سورتوں کی دہرائی اور باری باری سنانا۔"],
+["کھانے سے پہلے “بسم اللہ” کہیں اور کھانے کے بعد اللہ کا شکر ادا کریں۔ دائیں ہاتھ سے کھانے کی عادت ڈالیں۔","سونے سے پہلے بسم اللہ اور دعا پڑھ کر دائیں کروٹ لیٹیں۔ جاگنے پر اللہ کا شکر ادا کریں۔","گھر میں داخل ہوتے وقت بسم اللہ پڑھیں اور گھر والوں کو سلام کریں۔ نکلتے وقت بھی بسم اللہ پڑھیں۔","بیت الخلا کی دعا یاد کروائیں اور بائیں پاؤں سے داخل ہونے اور دائیں سے نکلنے کا طریقہ بتائیں۔","والدین کے لیے دعا: رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا۔ معنی: اے میرے رب! ان پر رحم فرما جیسے انہوں نے بچپن میں میری پرورش کی۔"],
+["صفائی ایمان کا حصہ ہے۔ ہاتھ منہ دھونا، ناخن کاٹنا اور صاف کپڑے پہننے کی عادت سکھائیں۔","وضو کے مراحل ترتیب سے: نیت، ہاتھ دھونا، کلی، ناک میں پانی، چہرہ، بازو، سر کا مسح، پاؤں۔ عملی مشق کروائیں۔","اذان سن کر خاموشی سے جواب دینا اور اذان کے بعد دعا پڑھنے کا ادب سکھائیں۔","نماز سے پہلے پاک جگہ، پاک کپڑے اور قبلہ رخ ہونا۔ دل میں نماز کی نیت کرنا سکھائیں۔","نماز کے ارکان کی پہچان: قیام، رکوع، سجدہ اور قعدہ۔ بچوں کو عملی طور پر کر کے دکھائیں۔"],
+["کلمہ طیبہ: لَا إِلٰهَ إِلَّا اللّٰهُ مُحَمَّدٌ رَسُولُ اللّٰهِ۔ معنی: اللہ کے سوا کوئی معبود نہیں، محمد ﷺ اللہ کے رسول ہیں۔","کلمہ شہادت: اَشْہَدُ اَنْ لَّا اِلٰہَ اِلَّا اللّٰہُ وَحْدَہٗ لَا شَرِیْکَ لَہٗ وَاَشْہَدُ اَنَّ مُحَمَّدًا عَبْدُہٗ وَرَسُوْلُہٗ۔","کلمہ تمجید: سُبْحَانَ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَلَا إِلٰهَ إِلَّا اللّٰهُ وَاللّٰهُ أَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيمِ۔","اللہ کے نام: اللہ، رحمٰن، رحیم، خالق، رازق۔ ہر نام کا آسان معنی بتائیں۔","اللہ کے نام: سمیع، بصیر، غفور، کریم، ودود۔ آسان معنی اور روزمرہ کی مثال کے ساتھ سمجھائیں۔"],
+["سلام کرنا: “السلام علیکم” کہنا اور “وعلیکم السلام” میں جواب دینا۔ ہر ملاقات پر سلام کی عادت ڈالیں۔","سچ بولنا: چھوٹی کہانی کے ذریعے سچ کی اہمیت اور جھوٹ کے نقصان سمجھائیں۔","والدین کا ادب: ان کی بات توجہ سے سننا، آواز نیچی رکھنا اور ان کی خدمت کرنا۔","استاد کا ادب: استاد کے آنے پر ادب سے بیٹھنا، توجہ سے سننا اور شکریہ ادا کرنا۔","پڑوسی اور مہمان: پڑوسی کا خیال رکھنا، مہمان کا احترام کرنا اور اپنی چیزیں بانٹنا۔"],
+["قاعدے کے تمام اسباق کی دہرائی، کمزور حروف اور حرکات کی دوبارہ مشق۔","سیکھی ہوئی تمام سورتوں کی دہرائی، ایک ایک بچے سے سننا۔","تمام دعاؤں اور کلموں کی دہرائی، معنی کے ساتھ۔","زبانی امتحان: حروف، حرکات، ایک سورت اور ایک دعا سنیں۔ ہر بچے کی حوصلہ افزائی کریں۔","سالانہ جشن: بچوں کو انعام اور سند دیں اور والدین کو سال بھر کی پیش رفت بتائیں۔"]
+],
+adults:[
+["مخارج: حروف کے نکلنے کی پانچ بڑی جگہیں ہیں: جوف، حلق، زبان، ہونٹ اور خیشوم۔ ہر حرف کی ادائیگی کی جگہ پہچانیں۔","صفات: ہر حرف کی آواز کی کیفیت، جیسے جہر، ہمس، شدت، رخاوت، تفخیم اور ترقیق۔ انہی سے ملتے جلتے حروف میں فرق ہوتا ہے۔","نون ساکن اور تنوین کے چار احکام: اظہار، ادغام، اقلاب اور اخفاء۔ حروف کے مطابق ہر حکم کی مشق کریں۔","میم ساکن کے تین احکام: اخفاء شفوی، ادغام شفوی اور اظہار شفوی۔","مد طبعی اور مد کی فرعی اقسام: متصل، منفصل، لازم وغیرہ۔ ہر مد کی مقدار کا خیال رکھیں۔","وقف اور ابتدا: کہاں رکنا ہے اور کہاں سے دوبارہ شروع کرنا ہے۔ وقف کی علامات پہچانیں۔","عام غلطیاں: ق اور ک، ث اور س، ذ اور ز وغیرہ کے مخارج میں فرق۔ ہر غلطی کی الگ مشق کریں۔","روزانہ ایک مقررہ وقت پر تلاوت کریں، سیکھے ہوئے احکام کی مشق کریں اور کسی قاری کو سنائیں۔"],
+["وضو کے فرائض چار ہیں (حنفی فقہ): چہرہ دھونا، کہنیوں سمیت بازو، چوتھائی سر کا مسح اور ٹخنوں سمیت پاؤں۔ غسل کے فرائض: کلی، ناک میں پانی اور پورا جسم دھونا۔","نماز کے ارکان: قیام، قراءت، رکوع، سجدہ اور قعدہ اخیرہ۔ شرائط: طہارت، ستر، قبلہ، وقت اور نیت۔","ثنا، تشہد، درود ابراہیمی اور دعائے ماثورہ یاد کریں اور ان کے درست تلفظ کی مشق کریں۔","روزہ صبح صادق سے غروب آفتاب تک کھانے، پینے اور ازدواجی تعلق سے رکنے کا نام ہے۔ نیت، سحری، افطار اور روزہ توڑنے والی چیزیں سمجھیں۔","زکوٰۃ مال کا ڈھائی فیصد ہے جب نصاب پورا ہو اور سال گزر جائے۔ نصاب کی تفصیل اور مستحقین کے لیے مستند عالم سے رجوع کریں۔","حج اور عمرہ کے بنیادی ارکان، احرام، طواف اور سعی کا خلاصہ۔ سفر سے پہلے کسی مستند رہنما سے تفصیل سیکھیں۔"],
+["حلال کمائی اور حرام سے بچاؤ: سود، دھوکہ اور رشوت سے بچنا اور مشتبہ چیزوں میں احتیاط۔","کاروبار میں سچائی، ناپ تول میں دیانت، وعدہ پورا کرنا اور لین دین لکھ کر رکھنا۔","والدین، بیوی بچوں اور رشتہ داروں کے حقوق۔ حسن سلوک اور صلہ رحمی۔","غیبت، بہتان اور جھوٹی خبر سے بچنا۔ بغیر تحقیق کوئی بات آگے نہ بھیجیں اور اپنی پوسٹ میں مستند حوالہ دیں۔","اخلاق: صبر، شکر، معاف کرنا، غصے پر قابو اور عاجزی۔ روزانہ ایک نیک عمل کا ہدف رکھیں۔","نبی کریم ﷺ کی زندگی کے اہم واقعات اور ان سے ملنے والے عملی سبق۔"]
+],
+skills:[
+["تھری ڈی سافٹ ویئر (جیسے بلینڈر) انسٹال کریں، ونڈوز کی پہچان کریں اور ویو پورٹ میں گھومنا اور زوم کرنا سیکھیں۔","کیوب، سلنڈر اور اسفیئر بنائیں اور انہیں حرکت، سائز اور گھمانے کے ٹولز سے تبدیل کریں۔","بنیادی اشکال کو جوڑ کر ایک سادہ کردار بنائیں: سر، جسم، بازو اور ٹانگیں۔","کردار پر رنگ اور میٹریل لگائیں اور چمک اور کھردرے پن کی سیٹنگ سمجھیں۔","کی فریم کے ذریعے کردار کو ہلانا: ایک جگہ سے دوسری جگہ جانا اور ہاتھ ہلانا۔","لائٹ اور کیمرہ لگانا: تین لائٹ کا بنیادی سیٹ اپ اور کیمرے کا زاویہ منتخب کرنا۔","رینڈر کی سیٹنگ منتخب کریں اور اپنی اینیمیشن ویڈیو فائل کی شکل میں ایکسپورٹ کریں۔"],
+["توازن، تضاد، ترتیب اور خالی جگہ: ڈیزائن کے چار بنیادی اصول مثالوں کے ساتھ۔","دو یا تین رنگوں کا جوڑ بنانا اور اردو کے لیے نستعلیق اور نسخ فونٹ کا انتخاب۔","اپنے برانڈ کا سادہ لوگو: شکل، رنگ اور نام کا امتزاج۔ مختلف سائز پر چیک کریں۔","یوٹیوب تھمب نیل: بڑا عنوان، واضح تصویر اور کم الفاظ۔ سائز 1280×720۔","سوشل میڈیا پوسٹ کے سائز، ایک جیسا انداز اور آسانی سے پڑھا جانے والا متن۔","اردو متن والا پوسٹر اور بینر: دائیں سے بائیں ترتیب اور پڑھنے میں آسانی۔","اپنے بہترین کام جمع کر کے پورٹ فولیو بنائیں تاکہ گاہک کو دکھا سکیں۔"],
+["ایپ (جیسے کیپ کٹ) کا تعارف: پروجیکٹ بنانا، ٹائم لائن اور میڈیا امپورٹ کرنا۔","کلپ کو کاٹنا، تقسیم کرنا، ترتیب بدلنا اور فالتو حصے ہٹانا۔","آواز کی سطح ٹھیک کرنا اور مناسب پس منظر موسیقی ڈالنا۔ کاپی رائٹ فری موسیقی استعمال کریں۔","ٹرانزیشن اور ایفیکٹس کا معتدل استعمال، تاکہ ویڈیو صاف نظر آئے۔","اردو سب ٹائٹل ڈالنا: خودکار کیپشن، غلطی کی درستی اور فونٹ کا انتخاب۔","رنگوں کی درستی: روشنی، کنٹراسٹ اور سیچوریشن کی سیٹنگ۔","ویڈیو کو مناسب ریزولوشن میں ایکسپورٹ کریں اور یوٹیوب پر عنوان، تفصیل اور ٹیگ کے ساتھ اپ لوڈ کریں۔"],
+["اے آئی ٹولز کی اقسام: متن، تصویر، ویڈیو اور آواز۔ مفت اور قابل اعتماد ٹولز کا انتخاب۔","اچھا پرامپٹ: واضح مقصد، تفصیل، انداز اور مثال۔ ایک ہی پرامپٹ بہتر کر کے نتیجے کا فرق دیکھیں۔","اے آئی سے تصاویر بنانا اور ان میں حسب منشا تبدیلی کرنا۔","اے آئی سے مختصر ویڈیو کلپ بنانا اور کلپس کو آپس میں جوڑنا۔","اسکرپٹ لکھوانا اور اے آئی آواز بنانا۔ ہر مواد خود پڑھ کر درست کریں۔","اے آئی مواد کو ایڈیٹنگ ایپ میں ملا کر بہتر بنانا۔ اسلامی مواد میں خاص احتیاط کریں اور حوالہ ضرور جانچیں۔","آخری پروجیکٹ: موضوع، اسکرپٹ، تصاویر، آواز اور ایڈیٹنگ کے ساتھ مکمل ویڈیو تیار کریں۔"],
+["فیس بک، یوٹیوب، انسٹاگرام اور ٹک ٹاک کی خصوصیات اور ناظرین کا فرق۔","پروفائل تصویر، نام، تعارف اور لنک: ہر جگہ ایک جیسی برانڈنگ۔","ہفتہ وار مواد کا کیلنڈر: کس دن کیا پوسٹ کرنا ہے اور موضوعات کی فہرست۔","پوسٹ اور ریلز شیڈول کرنے کے ٹولز اور مناسب وقت کا انتخاب۔","فالوورز بڑھانے کے طریقے: مفید مواد، تسلسل، ہیش ٹیگ اور ناظرین سے رابطہ۔","کمنٹس اور پیغامات کا بروقت اور مہذب جواب دینا۔ ناپسندیدہ تبصروں کو سنبھالنا۔","ماہانہ رپورٹ: ویوز، فالوورز اور ردعمل دیکھنا۔ آمدن کے جائز مواقع جیسے مونیٹائزیشن اور سروسز۔"]
+]};
+var PHOTO="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAEsASwDASIAAhEBAxEB/8QAHAAAAAcBAQAAAAAAAAAAAAAAAQIDBAUGBwAI/8QAQhAAAgEDAgQEAwYEBQMDBAMAAQIDAAQRBSEGEjFBEyJRYQcycRRCgZGhwSOx0fAVM1Ji4SRy8QgWUxclQ4KDsrP/xAAbAQACAwEBAQAAAAAAAAAAAAACBAEDBQAGB//EADERAAICAQQBAwIEBgIDAAAAAAABAgMRBBIhMUEFE1EiYRQjMrEGQnGBkaEVwTPR4f/aAAwDAQACEQMRAD8A8x4rqPjegxvTBAQ0B60Yjeg2zU4OAzQ123pXVJx1ca6gxUgHYFDXV1cQzqDG1DiuxUnAADNPLbqKaAU9thvTWlX1FF3Q/UbCjAVyDIFHxWtgzWwvLRHpbFIS9artX0h0v60R9z1pq3WnVz1pqwwaxX2zXfQBrjQntXEbVwIHauoa6pJArqGurjjq6urq44EYoR6UAIocjNcSgdq7au2odqEMAgGi9jRsCgIwDUHM4fKaBehoV+U1y9DXHAL3oD1oyjrRTUHBxXVw60PegOCGgo5xRGwDUpnHbV21dtXHFECztqDah2rtq4gDau2ocV2KkgChwK7GauPC+gwwW326/sxcPIR4UUinlUZ+YjvmubUVlhQg5vCKnDbSz/5UTyYOPIpP8qmrTh3VCQHtHiJGcSkIcfQ1oYkvLTRo9Q+zRW1jPM0KOsYQMyYLADqcZG/vimTaqxwHkORhQBkkDsKiGsjB5SLpaBz/AJiNt+DG8FGuNTsoS2cqCzlfrgYqS07gjRi5Op8QvFGp6W1oXLD1BLAfnXG+uAEjeJpebIUcrZJzv06/Teu/xPmBXwShY+UBtxk9sjb2o/8AlLH2iP8AiavksNv8NODmhSZ+L4U5ssI5FZ2x2BEakKfbJpjrHBnCNlNbiwv31RWTMrcjxBG9Bk5NRMq88ivHJcu3Lko6q2ewxj2/lTmXUYkAkcgMduXwgN8gddt/UbbZoHr5y7ZbD06uPOBs/D+kCRuTQopkUYBe5Klj22zTluG+HI7eR00dC7Jhk8Qn8FbOxpneXrTOPCuRGcFQMEqcDOQAeuO2/wBKc210XjjSRlklIw0gAAznYt+dd+IW1PghaZ72uf8ARH3HB2gXFqClveWsoGeWOVWb16EkGowfDyK7h8Ww1iNgTjkmiKkH0OM1ZZcIZhyxkREqSGyp98+me/vSS6ta2ypPIoMpIWLEfO5z90ev4+tHHU1z4wVT0koc54+5T5uAtVjcxxyWUzDOQk4Dbddjgn8Kir/QdR01mW4tZQBvzqpZCPXI2rTbd9OncXIigiuVO5MZ8WNvdR0NO1vI4pzcxSz+KEw7LnkK56kZwfY1bvqw0+GU+xdlOLTRjGM0GK2WfUdKvRNDqXDWjS8oCxTtalJZR65iI7f6t6irvgjhi6RWi8Wzc/8AxThhn/tbJAG1ds85AWXnBl+BXVcb34fcsZawvlmbICqwAD59x0/H86rN7pV9p0piu7SeFx2ZDj8D0NdKtpZIUvsNKNsKLQjHegLEw21DtRQRRtqENM7agPShOPWgyMdajBzYAGBQr8prvumuX5TUHI5e9BjNCvegqAgobBoQ29dy13LvQEA53riATQqADXbZ6Vxx3KPSuKijKR6Vwwe1GQE5BXcgowxmh2zR4BCctdy0Y4oSKnAORxpFgNR1KC151QMSSWOBgDJ/litP0LSJuKNb07SIJI+a6kSNACTyKTucdBgDJ+lV74SaBYa7ruoR39xLCltplxdJ4WOZmjXmAyQcDbetb4ztdB4I4T4e1Phmxl07W9TiWRL0TO8ip4Y58bnGWblzj1xSeof1JDumkknxyx78dbO30mLhfRLS0FrbWsU6QpzjOFdQHLA9WALY671lEEvNIiqW8z9A+dwcfe2ycjc7Vsvwmms/iLbX68U2Z4hv9M5Psv2p+V/Cc+ZTuAcMM5OT/Kql8X9X4VtNafTeGNH01INOy1xLEhPjyAjKdfkHQ46nvS/kYrntW1lMsIZolE+m2d3DrWjTvdahqK3ACwJzcqiMZwcEjoD67irRpH/t+fhPXbDiAaw/Fcchl0fT4Uk5k50VxKAowc7Fi33RtVNi1FDDfx3FtpzS3KLco1uzf9JkklFXOCO2+cYFTFrfraaha6je2kdvFqdrLJbQ2F26vACvKOZ9zjfdT13GaZy85+CiO1pJPtiEGszT6nLqklnYzsg55E+zKsPy4zyrsoyQR7jvTnh6wTW7m10WK2K31/cxRRuHHKiuDzFhjOcYOdsYO29aZ8P/AIUcK8W8FG8j1nUbe4bK3yLIoVXByAUxuvRhn9qnNN+FtrwLq1lxLqHEdvLpOjK8wWS1EZGQ3L5h8xy3fJOwGwpRxzId92MU0iv/ABm+Eem6Totrq+hWXhQ2qCG6WMZLxnZZG/3Z2Y/7ge1YtfadeWMsMciTwNKglVXGPKVyGG/y4xg1v2u/HvhrF7aW2i3F/DOW8VmKxxzZGDnmycEYHb2rCr+2t49GudS5ysnjLHHFglAD1LN6LsenQ9qOO5tFUXti9w1jkvPBkZmt5Y8gYZsFjjsKLDqFrI4gnszNv4fKG5lz6nOd+lGlLvc/ZlnspJBHzmS0OI1Ubb83Vid/fOw9DJ5H8ecnmtosxIkalthhM4xncjJ3P1xRyTi8AqalHItE2n6bMqL4kKKAAEjVS565J746Zo51y1ld1itZrhpDzvzvjODn++1M7Vr/AFjVZEdWtYm3Se6CxIoAOxON+uxO9K3sNyZoIhFykDlRocefJ6AgeYk7DrUZTeQlJpJYE5uI7tR/00UUYJ3CgEk49Tn1pxw4OKOKtah0izkjSWVWfmfyqoVSxJwPaoq6u7WFFiitL+OcSvFNJIpKlxjCqMbMN8gk1rPwMjtXudY19YrK0u1hW1toWm23GZGIJJHNhB6bnFTKUoguSksoyGTUuIvFYSfaFdSxYYI2Bw3bsQQfpTyy1riGAwczyuJF541kHMrrkjIHpkEfhVi+MWmS2PHmotFcRwrKI5xHzlf8wDnKj05gScfXFUlNMmdXZfDmkaTwY3inHlIBJPKeqlfveoqI2y+Q1DhPGQvF0dtN4GoQ2/gTXDMJlX5Cw7gds+lVyrdqME7cMXaTpMptZo2XxcFgMlG3HbmBFVHG1aMJbopmdqI7Z8eQdvehyBQAbUFFgpyDkV22KCuxmhJyGHymuXoa4LtihCkCoCRy7iurlUih5DQhJMDau2ocLQ4FCjgNjXYoQBRgBUeTmFUda4DNGUda5etGkCEA3riN6MB5q5vmq1IrYUiuND3rjRJANlw+HouIRrN3anEsdiYztnCOeVz7bd/etGmlksDwjNxTb/aNOh0ppYFG2ULycoIPXzFfwxVU+Cjaev8A7sOpXEUELaLLGjSd5GICADuc9q1jVdPtfi3pmj6Zwmwe80K1VZzd5jjKMiqAuxz5lJxjG+e9Z2q5ng0dLLEUyL+EGla7c3esrpK/YmGjyIZ1UgtK/mizv1x06YG9ZeIGtblZYueG6iYMyuokBIbbykYO/UH3rcODuMOHfhHBd8L62t0+qwXYnup7JlaJn5RhRkgsFBAIx1yazX4iXeharxNcatw3M72l2PHaGVeUwSlvOMbjBI5ts9aXWfA1DLbyuyt6Q0mmTm0tZNOkNtOLoxTRrIGYDGCTsygfdzinOn2v2K2vLeOCzZrkp/1DjnkhCsW5Yz90HIztnoKZWWmQQ2dzcNqEHiWMngW8Kowa6V2YtMD2AAXr1JqWtL67jvrAR6xDBPDF4sE3jDkt1PM5XmA2bcjG5yQKKyW3pnUxUllom+DNY4i4Tle40S4nHjyJbuiw+Kk8nVUIxgk4OB1/WpHjbiHibWLR7HijUJIrqymTGkzwGF+Vl2lIUYI6Dc532qt6RrM+kix1bS9QVL+0vPtEUUyOd1TZmX5cNzFf9Wx3Ap5r/EWp8Y3V1repwmfUmAE9zH5YIIFACRogzjzE5Yn72KmKjt+50s+51wRF3M1pcrqGlx3FnCnlhdzlgwXzHPKBnJOw6Aj61FPCQ4ihZLoMFPOvNyLld13A+h67jbNWmz0DU9allsbVLjVLi2x4UcBJto2cgtmT5Fx3xkk4HY1aIPgxeXkyXHEF/FEmQ32PT1KoMDABc7n+pzSzthVzNjKpnZxFGa6ZCl/fMumWFvPM9wA8NvEYokUdSME46Y6k9av+i/D0W7Lfam3jzKoQKw2RR0Uew7VdbDh2w0CFY7C1SGMDflG/40vcEbBT1H51l6jXyseI8I0tN6fCtZlyytXdha3Cm3eFAjD0qo8RaPcWir9p+1X1lApFuguWT7MT3XY/lV4voG2KjdehBro4xMoSRAQeoPepoulXygrqY2fTIw+903/C3aKLiF54naO6jFox8IzA9XLEFGAyc+tM43jWGVy1x9sLBk5eXkZN+Yk5znPLjt1rWOIfh9M8M82iTGHxh/GtDjkm+mQcH3rOdWhnt7aSwgJhjilEjWNwymVJcYJGwJGMdNv51sV3q5Jow7NO6Xh9GifD7ibTWmk0jjS00+e8tYv+iu79VY4IyI3dgfLuCD2BNVv4wanYjiYLotlptvDbqkczW8KlJZcFjnHYE8vvge1VGHnnuzbW8iRQTOivNcptAvMACxHygMQCR2IzR4JC0RdZSBgRyhDtnrj3XK5z7A1zTS3MKuKlJpMkjPY3fwy1y7mjih1EajFbp4eweIjmxj1BHtWeAZFXTWbt5eFL0mQzpLqCfxQpw7gPk59TnO9UwDatPSR/LM71DixLOeAMZFcOlD2rh0prAlkLihWhA2oB3FVyQSYooowBpMZowyaBotTFAtDymiDm9qOC2KBouiwnKtdhfWjcq13IvrQoAAKtcAB0owRT3rgo7Gh8k44OVetAo3NHUbmgA8xq6IDCAeagYeajgZaisDzVckUSYXGK4gmhIzQ1YolbZaeCY0lsdaiBAmeGHw2P3cSZP6Vovwa12DhrjqA396v2TUI2spy7YwGwQ2fQMBkisu4VkEdxLz/Iyhcdi2dqn2kUSugTwAmMHAHmIyQO/cb1mauP5jNXSYdSTJDiPW4tU4l1LUZVnmNzdSTFsgA5ZuhznlwB77CmokinhbwYZkTKjztlicbkkf8AcfwApvPdzoSIoiY40EkkpHKoXmAznvg111eSpBzxwPJMW5I1JxzFjgY/T8jSm18DinFJr4JSxsY7/mCztK0Ymd4myCIo05y+TsM5IA65G/arNwnwbdcW6fBqdrpFrZ6dJOHjN5cu0s0CgAr5RtzNnLemAAOprXiKmgagk0LQ3U7JpyCFyyvN4mWy2NtlAwNv1r0HodrDpukWVjAFWO2gSJQvTYAH9c0tqbZVpJPkY01atbb6KRYfBad7eaO51i2h8aQSZtbIFo1GfIrOScb79zgVaLH4U8Px3E9zqQudVknZWkW5fEJx0/hJhcDsMGrZbsOTB2+lLFginBzS3vTa5YzsinwgIoILO3S3tYIoIUGFjjUKqj2ApndQpysT23JxTiSQsByoTv7UymkZiUUE5/s1VN5LYJp8EXf24RCSSSVzgmoholkIHcdKl9SWdlyeXck96io45kLc3Ie3pSbisj0ZfSNvsgc5LMD9aPDaBGIySSaXXnPWMA+nNRGeVVP8I7epGKOIEuRVUI2B2Heq3xVwpb6+omSSSy1CIYhvIdnX2PqPaptpbjI5UQ7/AHmIpCS4uUz4kOcb5Rsg/hTNUscoVsipcSMD4k0G7027NveW/wBnmKcokVyyXhLb8ue+4PLTGN0ibkltVt/DUIDEG5SQoGcE7E9T/Kt3nsrHiGze1v7ZJo22eOQdD6j0PuKz7jXhk8IWH2+MG/0oyCN45DieHm6ESD5hsBhvp3pyGrU2oS7KpaH2s2R5SKvrMlla/D6LToLh2uP8VaeRCpGUMeFJPTOc7VScbVbeKfCttPNvGpPNOpDSR8r4Cn8s5G1VPtXotJ/4kzzXqCxc0vsBjau6ih7UHamMCQHRaADNGxtRRntQSQUWGGaEZoBmhwaBotTDjNGyaIM0cZxVbRamG5F9aHkX1o3hj1rvCHrVAWABGvrQqmKMkQ381CF96hP6gscBVXzGigeY0si7tRQvnq+JTJCQHmorfNSmBzUR/mpmKFp9BTXGuNGK7CrUuSrJNcMLLNLLFFzFvKwCjJOD0q2pomqfafGazuMEYVXwoXOM4yc5O1Z013LYqxt5nilcY5lOCB9abf5i+LcTSsPvHnLb/jWZq4/mdmhp7dtaWDSLnQ5pOSado0RQXwbiNUPKAd1yemR+Y9aSvLW1ClbvVtMt1LjdJwWUlsZ8gPcHfrsPaqPpNvBdXq+LCTApwF7sT61eI7zR9NulgtdOtGnOFReQHB9SfQDH50m+BuFjlnjsmeHozxDrWkWNgbiXSrKX7bcSSRmNJJ15lVlBOflx+INbtZToAo59s99s1QeDjCyAlWyRy5Axt6n6+g9qvMEaKMIPKBgZG+Kw9ba3M39DVtr58k7HOOYbb0vHPzMVI3x37VGW7svKMemD61JKqyD6dDQQm2g5xSOKuNl3HuaayAhmY9z+lPyhK49vSkZV5EzkA5xRvkGMuSIuVYxYdlLAE5HuajWifxBjYA9+9TT+Gq9QMHaoma4jMhHNuenvSz7G4coS8FiMkAEZoCpUY6/hSokXmUBs57V3jIcrzflRohjXwSxx0NNLxWjjPmz71Kkwqqpzj6Mck1G30au8aJIRk5yrelXwF7OWMYzhSxHckmob4hW63/AesRfMVtzKPqpDftUw8ZUnDDc96aa1Abvh7VIc5L2si4//AFNJam3ZZHHho1NLS50zz5TRgWtM0+lWTtmPmjVxHIckjlAyD3B7VA42qauQp4etNplAygV9xkE5wfT981DkbV9A0cfykfO9Y/zP7IJigxtRiMCgA2zTGBUDtRR3o3agquSCRwowotDmq2g0GBNGyaICaHzVW0WpjoQg9/1o3gr6/rRvA/3VwhA+9SmRjb9jlgGetCExRkh3+ahVMZqF2FjgKg8zUUfNR0G7UQfNTMSl9CY+ek5PnpQHz0R92p2CEpvgKRvS9sQHwy5BGD7e9InrRumO9WpclITUnQXTCJgwHqMZ/OjW1jc3skbHEak8qk7gep3+tNrnEtyeYsSetP7LkManmaGEtyqSSxc+w/KsS5/WzSrX0oG5ePSWCxSJKY9/Lvg+5/pU7wJpt1qt82oTAyHm2J68xPaoO9sopQEtyZI03L4xznP8vSts+HWixW9vFGI1/hgHHv6n3/vvSGqt9uDZoaKn3LUn0XXQ9OjsLZC4AfAO3QfSpuOYHABANNhDnCkdqdJZpzI5UFlOQfrXmsuTyz1WFFYRI2qs7evQVORKkaZfAHqagXu4bCBri4lWKKMczszcoUepPYVXdU+IemXULJb3ksgHe3gkcH8QpFOaaLYlqGXtr+2LcgYc2MH2qL1LVLeE8vioD1OT0FYzqnE1zY+LLZ3WryyOSRz2rqo/Mdqp9/x5r0shVrO4kQdwhDGtH8M5LsznqVB9G63mrxEEiVRnYb1F3GrwQs2WHlX5qxKTjG/JDSxXMC/6ZARg+ozT214xbw2dyWBGN6XnpMDMNan0ataa39ovRErcwEbN+eBS0eqxpdtGXAPITjGM7iqhwXNJew3OoYdQ/lTPoKi9Y4k+xaqfEbGUIGD1O1Ve1mWENe8lHcy/T62rNyA79NutIrqKxku5LORjAPyj+tZNd8avAWdZOvao4fEO5Vz58DORlqar0smhG3Wwizd7aVJxzh9vz3o12iraXZ7eG3/9TWO6d8TZmxECFJPU9Kv9txALzh65MrjxxDJsN84Un8Kz/UNJKOJGz6Rro25gjCr+4FzHiLCxIc8ue5FR5G1LR80dttkGTJP0pMjymvoWmjimP9D55qpbrpP7hCPLQfdozfLRceWjaKUwuPLRaN2otVyQaOrt6HFdVbRKYIocmgFdk1W0WpkwbTBwWNc1pgfNUgbbmXOaT8LmGAazIzNV1IYi35cnmNAuBnenPhncZpswVHKmrYcspnwERhzNvSYZefrR+UKSaRYAEmm4ITm+ApYc/Wiuw5qA7nNBjJpyP2EmHJFPNK0u61vUbfT7KPxLid+VF/c+wpkFya0P4T2620Wu64V/iWVsI4T6O56/kP1qrWXuiiVvwMaHTfiL41fLLDH/AOn/AE6e0P8A93uXvlXzMgXww2OmP6msz1vgHW9CvXtZ4JZIomyZYlyOX1x2rZPhjwTqs17JrLahcQzzAvs5ww65I6GrrqLwalp9zbXNrEbwKUy6eU/7vpXkYa6e7M3nJ66/0yrbtrWMHl1buK2neOOUznyjDwleg9jt6VpvDHHWuWcbLDw/a3bZOQbkxtknJ2IqnjRk07XJbSWIBorjzDHXByufY/yrXuC9Ms7qweYohLEgnHU53P45z+NMayyKry1kQ9Pqk7Ws4wJWvxM1tS63fBVzCoRn51uC4YgZ5Ryodz0HalLP4wWxvlt77QdYsEIJM5hMiLtnGAAT6fWpy60FIl57fyn/AG0nbw3cA3cjHcsd6y4ypf8AJ/tmxKu2P8/+kR2l8YWvHFzPNB462doFXwbqHkxKcnmIJ822MemTR9c4z03QrYm7uIwR0HN1/Deo+/0jWru5u20+5tY3unVmeTcqAgUdOp6mo+D4SWbzfada1B9RuDgnchAPT2ptQj84Qo5yx8sq2ufEmTU4ne2sCLceUSzSBFPsP6VQrnWp9RclbeBGLBQAMsc1sPFHC+mR6bJYC2PhHHJKoHOh7dNj+Iqg6fw1Z2F0JXmaZlJKgRFRn1JzT0HWlwZ1sLnL7FestXvbZiqXM0Y7FHYD6EZrQeC9MuOIIg17bwXCn75jCP8AXmAH65qvW/DAvNSjjTldZH84VTk5P7Vq0NueG7O3t1jZbu/IgtUVc+YkKpx9SOnTr0qu2Tf0w7Zdp68PM+jotQ0nQ4JdHl+3C7gbDLa2UkycpGVJKg4JBG2dqzji6KLVLwrYu5mxkJPGbdj9PExmtYtJr/Vpb1dMlIjSZnkkI2bJwv5qqn8aofxF0C8uZIjfszKwbBjHVgOm/r+1K1uKtaHLoSdWTN9T0E6bNFBfSym5eNZGt408yE74Odunf9ty0S002NsTpMP/AOZf2FTr6er6pZmeF2t2t4wUzjdSVIO/Yg96S1nQNRm1fx7KF3gBHgvDGMIB0Gw7e9aqa6MSyL7SyL6HYaLM4MEzLJ2Bcb/pV4E0enaLdySDmTwGjcKeVipHLsc4zv6Vnd9wrfaXbRXcSs/hpzzMg/y2J6e+PWrFc6jdXnBkwWJWzEvPIT25h2pe2G+SiuVk0NFL24yk1h4bIRtP0G8jP2bUbm0kBwFu4wyn/wDZcVC6hZT6dOYZ1AJUMrA5V1PRge4NObYwcx8bxVyQSUIqd1qLRxo2kRzi+52gmMEycoCjxn2dDuRnOCDtXoY2uDUOcf0MGdKkt+Vn+pT2PloD8tGYbYxRSNsU4xNBc+WijcUYjAruXaqmgwua6uoAarZKBrs0FdVTLEXRY/4LU1jTBben4H8JqZINzWLA3ZrAz3Dnem78vjHJpwxxI1NH5TOc0/UhC1h38PPUUg4T1pR+Skm5KfrhkStnhCbBaAKtGwtCFFNRiJNnKFrWvhtZif4faqsQBebUI0b1xyjH86yhVWtc+BV0k6azo7kbql3GD6qcH9qz/WqnLRyx4x+5qeh2qGthn7/sbhoEMOhWkjSgCONFiB98ZNU/i/jnh9J7W0gu+a8Z2QKVwCpGcZ+tLcaatdx2FubZMxuGdsevMapvDXAUnFWoHV72Ai0ttxn775/avDQWeH0e3kuN77ZTePrfwNVh1CFm8W6RZAOxIOP5DFXn4Z3kk+mPzKq+foBj9P76U3+M+jwaPHo8kCBQhePGNgBuP5/rSPw5l8KzRVO7gNv7janrvr0qZl0rZrJGiJN/1HK2OXpgVM2tglzA2wznFVqVuSVd926e/tVi0m7eNI8qw5xnHocd6yYS2s17I7kNZ9C8KQhF5Q48uB1/5qKvbEwKXkVgA2BtuT7VfUureePwnCtnt60w1KwimXMTNt0Gc08p5WUxNR5w0ZPrjWsYIeYqR/pTJNVg6Hd6zIEsoLibOPO3kQfU1rdzw6ssod4wRncEUaSzFqvLhUUUSuaJ9hSIPgfge20ZfGuSk903Vuy+wz/OrFqttGk897JCJDFCIrJVxzC4YFRy+hGSc0FjdQBiPETIGcDrU/oNkLqYaler8hItoyNox3b/ALj6+lErZZz5BlTFLD6EtF4Wi4c4aituVJJW88zerH09h0HsKp3Gmkf4lo9xFEMTxjnjz/qG4/v3rU71n+zkMAB29BVR1G0a4jkaNclRk49KXnmM00W1YnBqR5/vuE7mw0e0voo35IXkjKtuwRsSLke3O4/CkreOZlEkVukp9UOD+mK07UStm/2VgPAuj5QfuOu+35nb0PtUVJwdbNJ48SNGxOSI22NaNdznHLFNRpY1zxDohuH47nxGSey8OOXZuYc3N9SaU4h0a30zhXVVhhRF8McuF6eYVaLXSRbjyhyPfeozja2uZeF72K3gkmkcKAqjJIyKqrk3qIY8tfuOLb+Fmn4jL9jFI4GZxtgZ649Kf8Zc1vc6dprAhrGwijcejvmVv/8AQD8Ke6bFaafdJNrUsSQRkM8EciySy9+UBScZ6ZbAH6VBavfy6zql3qVxgTXUrSsB0XJ6D2AwB7CveqDlZu8I+eucY1Y8kaQKKQKWKiiEVY4laYkVFAelHI3opAxVTiGmJUAGKNjagpZosTAHvXUNdiqmuAky+FcRNUcCMmpB3AiYe1RgcZNYlKyegseBm587U0bl8Xel5G87U0YqZtzWtRAyb54FXKUlhTRmKnoaAAVoQjwZtkss4KtGAWgwKOAKZjEpYIUVbvhZrC6HxtYTSNyxTk20nph9v54qqKoNLxZjdXQlWUgg+hFHbp1dXKt+Vgmm902RsXhnqyfRzqdhPYEos8Ls6KTuVbfb8a7hRJrbRbjRCVt7oOWBcU24Tvbfjfh+x1ZZSlykYjlKnBVxsc0F/rOnW9ylpqYuEuUJ5JIlOZB65FfLra5UzcJdrg+mV2K6tSXT5KL8Z75C1jaXGfGBd2TqFHff3I/KoTg+/LyQ/KqQ4TGMFgd8/rRPimWvL5ZSsgt5GMSPIcsCBjzH3JqE0G5a2u4+V1yuxztgjrt7VqV17tOkjDss2aptmwq4kkjGO+fp61YIGPKnIMr39vpVX0q7SWKN0w3KMlz94etWi22jR8YLDcCsKyDiz0MJqS4JSxhGY0kYFievQvU3FbQFQWjQMucECq9ZyFd+bmI33+7Tw6gpGckn2NX0TS7F763Loc3ghiBY4x61lnHnF0dmfCgILv5VUHcnpU7xnxQbKzfzYJBGM1lHDmg33H2vPdyM4toWwCO7e30phRU39gU/bX3Nf4J4ezZxyTuZWcB5HP3mI/kKvK25hRVJCqo6Vm2u8Sah8PdHiT7FNcwxryJLGM9PX3rOX+PPEd3KWTRHaEHcmXDY/KphXKWcI62yMcbpcHpa6ngOlszSAsvv1quWlxA0xjklEYIxkn1rM9I+J1vrGntMJhFIn+ZFJsyH6fvVe1T4hpLdFVnB37GocZuayugYuEYPEuzSOKuGxqltPAjKjoRJFKu4V+x+h7/Wqhw/r7vzWdzlZ4WMbqezA4Iqrn4q/YrpLVJZZZCwykYyFPv71HScUx33Ft5cQkBXZQ22AWCgMfzFFXXYpNSXHgstnXKEWnyuDVnc3JIiHmP3SP5Gq9xletacOajnO8LINv8AVgfvUlp1/wDwI7hRkHAbB71W/ifqQfSuQYzcTAY9cDJH8qr08XZqoRfWV+43KXs6Oya7w/2MgEYAxjFFIFOCopNkFfVnDB8mUhBlFJlRSzCkzVEkWJiLACilRilGxRT0qiSLUxE7CiijHpRaVki5HCgrqDNUyXASLg1x/Dao8S+Y70LS+Rt6aB/May6YYNq2YVny5pq28hpVm3JqR0nQH1D+NISsfsOtaVLSMjUvCI3y+1COWtH034YQS263M0jkMMhAOlIa38NPssS3FozFScFSOlNwtjnAhl/BQRilFA9q0bTvhZC8Q+0SuXPXl6CmWt/Dv/B3Uh2lifoSNxV9ephu2gWtwjuaKWnKKVUrUlNw8ytlScUqnDxI6GtCOfgRlq6ms5LP8JuMjw5ri2NxNy2F6wRsnZH6Bv2Nbxdaat1crcMFYAYTbJAry62iSRN96tA0f4qazo2lC1vITe+CuEk5sPgdj6/WvLevejzvl+IoXPlf9nqPQvX6ao+xdLjw/wDomfi5pdpNDFZIQJmBZyp3+ashtbxbSNhLIRMsjDPUN0GfxGPxB9am5ONLvii+1C+uUELRAKkTbkDrmqbd3DXWqjwmeNHn5sZ2xnfasfS1yrjsmaOuthZP3K2a1wxrLRqsanmVG33xitS0yUunjSsSANlHTp/OsT4XlRrmKAKfEiXLr/qYnOfzK1qOj6hy5hErckQCE9ckDf8AM/yrM1tSzwa+gtbjyXHxAq8yADPX+tJXMp8EtyYwDsKbWt2SSCNhuDjGfwol9OjQlHOc9Bn+dI1LnBoWcLJmXFsN/wARapFptr80zYLDoo7mtM4btNK4N0eO2j5OWGPLsCOY46n86qV1qtlpFvdXkZR7hz4anI/v1qi69xzenmiglIz5thjmJ/46DNaldLkkkZl2pjFvJrvEXE0Lo8LIrx4Ods8p5c4/l+tY9q99LcW8twyQ29tEWDBepyNj+tK6f/jWraPi05zNk7A/MCN84674/rS5+H2oTWjR313DbGTYpnmzt6diKYiow7YrOc7FiKM1hmVL37OWcxy53UnP503uLa4jnZIQwhJ2bPmPtmr43whuUmWS11WGYodlYcuPXej6j8MrqCNne8tUZjkx7bHvvVytrz2KS09+OiI4Gv7KxlMU9lbpK3/5iCxP0znHXtR9c0pNL4iW4gwbe686lTkBu4zVd1LS7/R7lWmjHXZh8pI77dKlNNv5L8LaXHKvK3Oo38rf3n8KCVX80Riq94Vc1yjTdBnMmnEHI7YOcGqX8SrpnurGEvgRAsR/uJ2/QVc+HP4VsynoQO/SqBxSRxBxSLSD5nbCNjby/wBmk/T451Wfg2fU7Nuh2+WV84YZ70mwHpU9ccKXNqcODUJcwvaylHBBHrX0uOohZxFnzBwlF4ksDZqSbqaWfFItQyRZETaiN8tGbFAw2qiRchE7iiUoRSZ2pOSLkBQUIwfSuxVLRYiV8QcppEPv1rs+U0kOtIRNKTZxbc1f+Fv+qskWIZ5fmrPhu341pHCVuIbKPkJGTuRV8WJWw3tI1rSbMyaej4HygYpvrjw2VsniFT5htQ2cksVkChOOWqrxbfSLaFmYh+1TpW5zwztXT7VTlHwXGw8KSNWVgQd6YcWtBJBFGGUletZtb8R6jbxcsdxIo9qBdaurp8yyO59WrTr0eLMvo8zqvUJTqcYrkmvscbNjFSEOkqVHlqKsZi5BJq26OqznlbfattJRjk8bqHYntTIK60devLUXf2sNnbvKwGFG4NXnULIxDIHlNVPWYkLIHUsMnCg45jg4z7VVYk47kFo7Zu1QmZtfRXdvcM6qYxOM+YbYB6+tM7ONLe3mmyxmAzzsf0Aqc4lmjkltyZAZCCXA25c7AeuP51DWLRF/DlSQHsFGcbdPzFeP1qUbpYPqWgk50QbJPhrXWi1T7QSA8hKcxHsMbfhWo8O3qJOkXinw0z4jZ6Hr+4rHY7CVJXeNSgRllYMc8ucgZPqc1Z9A1SRUNsMsw3ck9AMY/PGT/wA1l307kbWl1Gx4NttNRE4k5HHhoSv1NMda1SOGzuJnAzGm5IyST0GB1NU7RuIDJCxMrKATkdtupx37YHvUnqN4j6UTKW82GEfVzjoPrmspU7Z4Nt6jdDKM24g1ia4vhbsMRI5LZxgHvk+vb0GKb6bLpn2kS3M3zbkseY49BUPxRftcyPDECCXw3lxkdhUlpvww4h1JY5IZvDZ0BjyNm9vrWu1iOOjCjmdjeMmiHj+Cxs1jshHaQhdm++3071F//UONpSVSXBPziM77dfrTDhz4O65q95Pb65qkenxxplWfJaU+gG38/wAKeWvwV4vso7O7s9Xs/wCJkxRNK2MEHsVIOQOlLqMF2zQldNcbcBZePoCG/juBvhRneoabjqGN8JAX9WPUfnSt/wAE8cx3hdrSxm8NivMnh8hJHTtVY17QeILe+S3MMUknIpZbdRyqT2PuMUcYr7FcrpPjDLGeKLW+RjNEskJ8rofT9qqdxJFb6k4hkzGkh85Odh0/amt7pmq2EfNcQ8i45iVNBpMXjOWkywJyRn5t9/xqyENuZZF77nZiGOUa1p2qPb8PyXMxZXVOp3Pt9ajfhXpEutcX+Kyl0sI2Ehztlzjr+ZqH4gv10TRIrOOXxOc8309Kuv8A6dXYRancvyc85HzHBwuxx+f6UjJ+xVO1eTTm/wARZCh+EXviPhVVUlQDjvisT44sltLjpv0r0prIV7bGPu+leffibHyzc3vWh6BrnZdhszPWfTdtPuJdFCbp0pFt6UY7UVImmcKvfv6V7eckllnlILPAmEaRwiKWYnAAGSTVn03gZ2hF1rd9DpNsd8SeaVvog/em1pdJoy5tUBuCN5WG4+npTO91IyP4t5M8kh6LnJP9KVnrdPWs/qf+gZVX2PbD6V89v+3j/P8AgsPjcIaW4j03Q7jWZuglv5CFJ9o0xmkLzVpA2biz0PS0/wDjW3jVh+GGaqrPrk4QpC4tozsREcM31bqaimuMklVJ9zWdZ6la39PC+w3VoYR5lmT+7z/8LhJqmjSj+NdQsf8AZaHH8hScd5oMYIVoGBOcvA+ap/jv/pFD9of/AEClpaux9sZVMPgl+xpMdadMgHakSoGcVRE0pxEl+etN4OcQWaF8Etjr0rMsYbNahwZGk9kjSdMgAU3VOMezL1lc5JbHg0aW95dOAjXoN8CqPxTObqDccuK0hbCL/CQRjJXpWdcdW/gW6vGMY32pzS4UspCOruar2TZA29iZYwaJJbNbSgHoalNBIuIVYDqKeatppktyyjzLuK1lLkzb9FivfEaWD9KteiXISZMnY7GqVZTEHHpVi0+bGDmnofVHB5HWQaluRoFxbi4tiB1I2rMeP7tNIs/tD/5ynyKepNaJYajGbBpJnCqi5Yk9Md6wL4gcQ/41e3EkORbq3LEB05fX8aydTqPYrcX2+jV9N0C1eohaul3/AOhnpKtqMF3c3TGQzHY4OcD0Pr0H41CvqMttcF0A5uhVhsBnarza20em8NQSgKJPCPNKRsc/d/L+VUrVGeVEZI1jD56gczEZOfpXlIzc5Ns+jSrVcIpDpdXkuomVGKIiF5TjAYk7D33/AHpzYX0nhpHCOU565G34etVeOaZhyhjjmDYG2/apm2fMa8pHMDgFNwDjoDnc+9G+UVJ4eS16TeiG7WQuSueX1LY3OPxqe13XgdOMcZ5ZmXL/AO0e57VR7GdrCEsATMQRygnOPQn9h6+1dHLPOZJLmTm5TzKqfLzeuO596XdCctzHI6mSjtQztVN5rcRmIbzjKtsABXpvg25s5NKjtXZfETBTfONuv0rzRppVNQjYK4w+dxuT2/8ANaPb8VyWyK1vMylNhy4C++fWqdRCUsYGdFZGGdxtLXNhKZLW+Ub/ACsevT1qIYpBKo+0sUgYmM83lU9Nh271nS/FS3nhMN/ATIu3lO4+hqIuviFYcxWGW7XP3eQk/pVPtSn2jVr1tUOG019zXYLOwaFhJdO+bgzHMn3iO+OwqN1NdEtIXPPbpgeVBjzN6f8ANZUfiNaxwMg+05J2xGfSoaTjFb2fxJWuJEHRW8o/GpWna5wSvUKo8Rwiw8fTW02nARLym4YqBn7oGSaz3Qp47TUFVgJEj85DjGfapPWNfbVHUkBVQYVewGKrwIjuMyqQv3/Ue4/nTFFUlDEzH12pjZf7kCR169Oo3AlJHKDykegHQj8DWm/DDTbnT18e0kdJlQklscpbHMVYd8joQcj0NY/DMLe5Y+JuWwQRsR61uPwyeeOxf7TCTPFIhAxnPk6Z/EdaU9S+mnCNX0Je7dKcuzTX1AzWYMsUkbmMNg7j8DWGfEy4Dy8oP3q2y7WeHSla4KmRlJIU7L6CsB4+dpdRCDcltgKH+Gq0r9wz/EU0tI4ryVhUMhCip6z4fkt7cXE6lMjIB2wPU1Zfh/wM14o1O+TMCn+EhG0jDv8AQVA/EfieK5vX0vTZMwxHlmlXo7f6R7CvU6vVu2WF0eFrq2L7la1TU052itdwNjJ/SoaScnOCST1JoJXzsvSk6Rk2y6McHYycnc+9DXV1QiQMV2BQ11SRksEhGabsRSryKaRZ1qImlMTYjNaTwUGntI+XouxrNiQTWk8KN4GnxmI796s2uQndcq0asbhYtLXLA4XFZ9xvqUBsPBDAsc9KX1TWZ4dLmLsRyrkZrM73Vp79/wCIelaWle1YMDWRdkuy18HXo5jAx36irwYPFi6ZrJtGuXtbuORT0O/0rSpOLdL0e0WS7mDyMuViTdj/AEp9za5NDRKM6XGT6K/f2jWF8wxhW3FLR61aWIBnnRMds71X+I+N7jW3KQwx28Q6BRlvxNVVvFlcltye560b9Q9tcLJ5230mF1jWeDQeI+MxcaULKxLBbk4dztlR6VR7+NWgfyoTIvRAfXrS9+jKlrOXJAHhhfTl/wDNOrtG8SNiD8oJ37HbHtWHqdTLUT3SN7Q+n16Ot11COr3UU9lp0MJmeRIwXVTle+T+AHSo94Y5lTnfkOPKxPT1H16VbdLsre50C/PLzXFlzGSPOcj1Htsap2ou9uJVljUrKeYZOCMgVmway4/BrWxeFL5ELm2EXiCJERiN8n5lOMY96SV/sB8jhQRlXxkAH99qIuoPFyqFBUqQwP3h/eKPcyyTmOYjLIV5Cw2AA9O/T9KuYusju11OOWJ0YYGdiTuR6D07Z9elOWuI4bd3kR/E6rk4AJ7kftUfAtvYyGZx4m2xOy837gZ/al4BDezAl84PMeb8+Zv6V2DsidrevFIS28nMCXbc57/zqVN0QoWOQKg2JODjvUbLHC7lYSHRWC7nqx3OaOiI3hiRmCEMzNGAfYfmQKBxyHGbQtPPGUPh8juxOCduX3/vtn2psl6niMYgNuVEc98DGf3/AAp1PBFKqmBsQ8gYg9ux+vTNN59PSMRyAvjmxljuPepiyJRbFRMzIkqL5Dsc9uwP5iulj+SUKrRsd2HQZ6g/3tR7OJ4Y/CVsN4RXB3wwORkfjj8aJ9oXk50ABZM46nHof9Q7eu9GwUhlclzOUCgZyARtn0NF8RZSiv02DDuO39/hQSmOdVdcqQMr1IP40ScHInIBYqQcevb96B8BpZCxQL9rjypYEggEfMK9B8FWkdnottcyylpZW8SVmyAS53/ADoawfSVR5uU5JGwyM5znOR6b1rvCXEMYheF5AqJFyqSWKunYem370jranZE9Z/D8ow3N9sufE+uCGF40kDjG3fFZjw1ocnHnFxhXIt4yTJJ/pQHzH6noKf8AEupm00Fyg5JHYxR/iTv+VXPgTTrX4d8Cy6vqOEmmi+0z56hAPIn1/c0Wgp9mDwJ+vanfNVr+pGfF3ii34O0eLQtKKxXtxHyqE/8AwQ9M/U9B+NefJn3Kg79zUnxJxFd8S61dateMTLcOWAzsi9lHsBURvnenkjzkmBXUJoKkE6uxg0Pau6iuOANdUlo3D2rcQ3H2fSNNu7+UdVgjLY+p6D8am7r4VcYWUgjudJWGTfyPdQhhgkbgvtuDXNpdhKEn0iK5GIyFNJuCOqmr/bcMoQAE/MUFzwiT8qfpSmk1Ub5Yibeo0U4RyZ7zDPStc+H1lnTFkcZLb/SqLqfDT2xz5V+pxVi0zjhdA0pbSzgWa4A/zGOVH0HetV0zj0YtrjuW/wAFv4s0kT6TKRhBjqTjNZE9ulvIwkkDkHon9afapxBqOsSGS/upJfRM4UfQVDvIXblXpmirbqy5PLFbWrcKKx9x2boqMJ5fYUizGViXJJ75oFj8MZ6k9zTqz02a8AZcIhzhj3+n9elRLUSl2RHTpfp7G2FQZG9No5S7c3Nkg4I6nFWIafY21u7z7PHjn8RxncZBA75x2796hLOWGyvJJIp0wjY5sHoR6Y/D8arla5cFqoUXlliuLRNS0tjHHz3GFeILkkjO4UDvsfypa6NtItswaDkdSGLZ52GwCrjvv/OkNK1BIZ3jtJJSIz4kRAKsUI8429Ov4U2uYZNHuYlSbnWWMSMmPKmSfKCcg49RVGORlywsh9P1CThzXf8AqAXgz9nmBJBZSNiffH8qLxVoB0++DbPDOSYgMY5f6YPUelPbyGHVdIt5YkYSw/wZFJ5mkG5OD1OMZGfcVGJfzPZf4fcyqzxx/wABsZ5k64B/bb0qqUHu3r+5YprZsf8AYrX2RY5WZzmIHlJU4LHJG2aVNvJHDzhC0BDcpPzAdRn3rp4fFlfmnA8JBszHLZ64/vtSdoeW9YzSkRKHYZzjIG37VaLicrm5hjJQHwvJygbEAE8xpJC0WWjPKpONznf3p1LKA/2jIchSGO+cHv8A3601uS0sxdsEsoYkDFRjycSsCWryRJ4jBIwB08zHO+Pz/WjxSoiTxFuQszZJ3wAGwP0/M1DK8iNzx9MZBHb+zT5buPMSsA8jAdB8voPqev5VKZGB/ZzxwtE8flBlxhjnAP8A5xTSOdkidi3kYAYPud66UpF4TcmHJDcqnAUA96aBkW2kRlJ3A5x0wDk/0rmSh1bzl5TI7YkibmUnv2P6UgJGTnV8l1yRj8j/AF/CkA5wp5jzO5J9hgUa8fkvGKfdAH6UOSRSKRoYucEY+blJ2PT/AJpvNc+RkQkDqRn3okzrJHEqjBCsX+uT/wAUgqncYO/XbpQsJPBJ6fEzMk0UgSTmx171o/Dd1M1rHIRzksUZdsKRncCszjAVByv8vQ1auGuJ00x4lnXnj3LADfPY1ZGG5YNPRayND+os4A1/jaz01/NaWWJJgehIwT+wp38cOMzcw2+g2z4RsTTgeg+Vf3qJ4PuhbG+1KY/xbgklj6Zyf79qoWt6hJrOs3N47FvEc4yeijoPyrlDqKM27UO2yU2MMZOaKTg4pcgAZ69tulIsOvtTM6tqwKpha6uYYNdVDWCxHAZNad8NPhJ/7itv8e4gke00SMkhBlZLjHXB6qvTfv2qO+EfAKcaa209+GXSbDlkuT/8pPSMHpv1Oe3pnNbZxJxBYafpZuXQpbQAQ21qg3ZvlVFGTn29B16ZqmUsvai+EEluZUOMOO7jQ9PGj8KWq6Hpwyi/Z05Zps56AdM5PqfeofSfgpxXxHbNqFzJb20kjnKXbs0p2By2O+/Q71f+EeB5TJ/j+vxo+qzKTFD9yyRkYcgB+9vuf23rQbdViVxnly7HA+tV+5t4iWqvdzMyHUNR0jQ0JurmNX7Rrux/CqhqvH885ZNOhWFOgdxlqpwLu5dmZmzksxzmlRg9OtH6d6XVoo9uTD13rd+q4itsft3/AJDXNzcXr+JcTPIT1LGm7A42/OnCRS3ALRrlQcFycKD7k7U6h0nnVjzGQqAzAeUYPTA+Zt8dAKfndnhGVGlt5fJDMx5cN1zgUCpIzjCco9XPLn89zU01lHayQ85jgWVC8cgIQn6k79QRnIplDf2VjLbXMTmSQFhKgTtnrlvUdKXcmXqtLslrLSoFMTXD8wkPKrMvlz7D92wPY041G/htYJbIxct3HKQAN1XG2Wz94Y2xtuarr6tI9qbeJFji5y4OPPuMEZ9DgHHrQwAsOZmyx9ahLPYTmlxEDU5pLl5J5W5pHbmY4Az+VR5iLRyMOrjenl7svrSVv5kFEyph9JvZYmhuI3xNC36ira8dtq1mIE5IhLh7eUqWMXKDmHrkAEj8Cp9aoqyfZLwg7Ryfzqe06/S2dobje2m2cjcxns6+4zv6jIoXzyHCWHh9CME7wTn5o3BBznBRlOf6j8aW1O1VrZrpUwGlysZOHU/93TPTp1p7rlo967TAD7by+JIeckXC4AVkHXJGT7gdiCKgreYwiWCXK5xgSZUKw28w9xkf+KjOSWscDKWVmkRZoxh3UkKArMv/ADRnt45CJ0DsvV+YY5cn13zRL2IPKwOEaLYkg4UD1670qHzyW8LOqunnLEEtt2x65qSBuZGitljTARvMSQNlz/4/KkXVpTEjKMYXBUYJBPT86WdLfmdQG8xAVR2Wisokl5YmKAvkA9MAfN+dDgnIm4iMDFQFZTkHf8j/AH60hKskLg7YYbEd/anM6s7JHz4SToM7D+zSMiYZgWYA4PTp71xyOknliTkLqGbGw6qP2pHxQV5AT6ZPpQy25WNXXcMM5Hr3FI4+ufSoZOB146IcbHlOR79KQBd2YkjJ3JNFUA45tqA9d+lQSG+UlSe/belc8rKNxgd6KqhkBxjB2NKSLzFSx83fNQSh1HMYg0PKOVlwSe4o1qFJzvtvk0gjYbBOGxgE06jdCycvoPwo4nSfDJ27vvsejvEhwSnKMdietVNZChzgVJalOWhVAdi2TUSTuaNzaeUUxjxyLmUOd/yoG5SOozSOa7mNH77fZGwORQb9MZPoO9AH7EUvaFDcw+J/l+IvNsDtkZ60Emmskpc4ZuF1cp8NuAtL0VVMd/fL4suUyAxAMhJO2QCEwAcdznofhe5gvOJtLudXdo4LSNzHHKgCiVgOV25vl26N646Zqk/FPXH1bjua3tx4i2ix2sKrJzDYZ26KNz0XCjG3rVnstefWpodK4niFhqixiOC9YAJL7ORsdtvT6VTGK248svnN7srpG5CZeTr1/T+/79aVW7hhHLIyoTvg7ftWX2nFGpcJzDSr9Y5wqc8LM5OASMb5zyjBwu2OxpW440tEcNdTYkcc3TO3T9qp9pou99Y4MUjsppgCqEKejHofp3P4CnsNjbwRiadw6ZwWbdRjr5Ad8d+Y436U5udVt4Ei8GNWmjbJCkmM4xjfPmHUYI2wKgr7VJ3d4kfwYZcZiTpt09z9e/enm2xNKEWTlzfWtt4kFzIsNxEy8rQnnJUndRjyjbDDGNjjNRsut3Tzi6iWG3kKhW5Fzk4xnfp6+xzURMORwB9aXjPMvWhSJc2FmTxMls59Sc5ppKVjp7KcKfUVD3khLYFS+AUL20rSzqq9KmgvKtQ+lx4PP3qZG0e+PSuj0cxnqJIjO3akrBmZetKaow5D3JX8qR0wjpUEHajDzxFh8y9KUs5ftFsCeoGCKc3EYKkd6jLNzbXLRH5W6VzOJ6y1IJALW65zbA5V0ALw75JX1B7qT7jBo+rwR6o4eRolmmkZvtcfOyT+XPQ5JOR12IzuO9RLE8x5cE9cHvQxXMtqrNEFeF/njk+Un9j/ALhg1DXwWKXhjO6S4XkSd2TK7BgcEjbbsfSmsvLI3Pz8mQNse3apuOSG8jkjiKAurfwJsEqT95Cdi2w3GCfQ1GvaSxO8YkVR0yeoPoRjINCTx4CWkCRr40mDn5F/1fh1xQTzAOAg5eXcHvn0pIMtvDu38VuuD29Pb+f0pWxBzJcOoPhoQgx1Y7AfrXZ8EYALiNgTEsjHKNzepA6e9JkslssrFmIJU5+m39+1Fw8LLIzAFm5gOvf/AIpORmkPLnCjck1BIfxf4XUZz6YyP+P3ooCl+YuGyMYxg0mX5gq/KAPzrgylTgYYd/WoODtH4eObBVwCCD1oByny4yvXJG4ooYKRuN99qVQeK2SyBehJwoFcSjo4xICqnfOR60blMpMe/iJ29R/UUACwOrLMCQc8yV3iMzF8Lz5znG9cEgDlHZevY98+9OYJAQApyFyBkY2rpeVkcsoVh0wOp9DSFu3zdqKIM+ha4fm5aZE7mnLnIFND8x+tQ2Cug3NQZ96LXVBIYGjjcb0mKOKlEE5w5ftLxdp93eyly1wnO7b5PQdm9uxr0brOhafxPpzW+pKoYr5JnYCRD25WkYsB7KgryzjPfBrYPht8VmAh0bV5RG+yQ3IJQP6K3KyDPuTvVVifaL6pLmLK1qUl5ouu3Om314bmayfwPEJJBC9MZ3xg1Ixa3BJGpmjWRhsCfSqvaxycWcbNbPI0X2y7kLMpHlHMT95sdB3NaRcfBW5kk5tM1RBb42EvNI2e+6KV/U1b7kV+op9qTy4mZCdlOWyVz3pvfjlCyruART/ULdLWUxmcSyHPiYUjlbuN+v1pgDzpJbMe2VNWoqwCZBKVIGRilrdRymo21kKuIz1zipSJWAOOma5HMLMSqkH0qCnOZfxqcvCqx+Unpvn19qgSczZoZEwJS1HIq1K/Mg2wKjLUeRakR8i4BokDgZan5QRim2lt/Eyc4BBzS+qHAP5U005vO1D5C8E1ckBxIo8rVF3sROJFGCu9SCZeLkLbDzUk686kddqkgRR+ZVkFKN/CPPsUbZhTZD4XMhOxpyjhkwRkdK44ZSwBZOQgFW+U0UXDiRYpWBGeUFzjlH/d1pxNFzxtEe26mmSEMrK65ZdiKhhJnTPA8gkMZcbAAnlz9cf8URp25kUZwu4A+XPt2x9aclYgipFLLPIYsYXpH6g/TrTAqquR1Gds0AYszPO3O78zrk4O/wD5rkXy58igDOOvNREZUJkzgj5QO5/pTl2jY84A6bfX1oJPAUY5GTLgH37UTIz06UtIFxzd6S8PGCSMntXKWTtryDGMuTkDbbmG1cvlOPWnEyCACMcpYjLbfLSGA7qowDsN+lSQ1h4YZQgPQ/Slo1JZTyYCn5sdTRZ15W/Chtsl+tST5wKzgA/XtTePZ2HqKXuPnpsThqkiXYYHK/Sm7fMaVXY4okg3z61DIQShoKEVxwK0oBiiqM0epOBFCDg0AO9dXHErwtqy6DxHY6lJzckMoLkdeU7GvUWn69aalZxXVvcxzxOuQ4bmz+JmzXkcmpCx1HVrKDw7XULq2iJ5gkcpUfXANVzhuLa7NvDLLrkitb+GYWe4kcR5R8jxAAeYDG+Q23s2ar65SRWYFWRirA9R2NWO3kcWBlDEOkcqgg9Qq5X8ubb6Cq7zFmbm3zuTV6KZ/I1uk8G8OBsd6lbZsxjAqP1Pd4m7kCndo5EG1EitiGouRGQSCaiYfNJ60/1RiNqZWygknvQS7Cj0S1sNgKkt1Ve4FR1qKkm6qDvkUaBIrU2DE4ppYHD051IYJxTSyJ8ShfYXgmEbmwBkZ96K7cp65ogJwKMRkrn1qQRvdLzb/jtQQykqFO34UuygjfvTEHBx2riR63mAPemVzGY3EvboaeQjmG9FmUMCpGQa44C1Ef2V1jVPEZuXm5vOVbAIA6e9R90Akp5M8uSAT1xT7RoEd7hzkNCvMhBwVNJXcSiFH7sAT+o/aqy3wNZUgaJWWN1ODl+bIbHtjamwlOAM0a4ZhlAzBM55c7ZpLFDLk6PAsxBAA+po8EZeTIHMx6URNlHuKcWyByFO3NtkUJZH5Erh+eZiFCDpgHOMUim7ihycmuj60ZW3l5F7g77Ue0HnNJSHNLWnXNc+iY/qDT/NTVqcz/NTd65dHS7EzkbihYBh7GuPSgjOxFcRkIQVJB611OhGstrIzDzR4wR7npTbvUJkuOAyjFGFAtGogTq7NdUzDaw2ehnUkQPceKI1591TIzkD1+ualIhvBHpbiBRJcDcjKRd29z6CrLp/Al7qNqtzc3CWrSbiN0JYL2z6fSq7p0znVIJWbnfxVbLb5Oa1aSZy/wA1WRSLaq08tn//2Q==";
+var EN={
+tabs:["Children’s Curriculum","Adult Islamic Studies","Digital Skills"],
+intro:["Annual curriculum for ages 4–5: 12 months, 5 lessons a month, 60 lessons in all.","Three sequenced courses for youth and adults: Quran, worship and everyday matters.","Five free courses, each going from the basics to building your own project."],
+kids:[
+["Month 1: Arabic Letters (1)",["Alif, Ba, Ta, Tha","Jim, Ha, Kha","Dal, Dhal, Ra, Zay","Sin, Shin, Sad, Dad","Ta, Za, Ain, Ghain"],["Recognise the shape and sound of four letters. The teacher says it, the child repeats, then traces the shape in the air.","These three look alike; only the dots differ. Show dotted and undotted letters side by side.","These letters do not join to the next letter. Repeat names and sounds from flashcards.","Sin and Shin have teeth; Sad and Dad have round bellies. Sad and Dad are read with a heavy sound.","Ta and Za are heavy letters. Ain comes from the throat; practise it slowly."]],
+["Month 2: Arabic Letters (2)",["Fa, Qaf, Kaf","Lam, Mim, Nun","Waw, Ha, Hamza, Ya","Full alphabet reading","Letter recognition game"],["Explain the difference between Fa and Qaf. Qaf is deep and heavy; Kaf is light.","Learn the shape and sound, then Urdu words that start with each letter.","Complete the last four letters to finish the alphabet.","Read the whole alphabet in order, then in reverse, then from shuffled cards.","The child picks a card and names it; a star for each correct answer. Note the weak letters."]],
+["Month 3: Short Vowels",["Zabar (fatha)","Zer (kasra)","Pesh (damma)","All three vowels together","Vowel practice"],["A small stroke above a letter gives the “a” sound, as in a ba ta. Repeat with every letter.","A stroke below a letter gives the “i” sound, as in i bi ti.","A small waw-like mark above gives the “u” sound, as in u bu tu.","Read one letter with all three vowels (ba bi bu), then repeat with other letters.","Write vowelled letters on a slate or notebook and read them. Correct mistakes gently."]],
+["Month 4: Tanween and Sukoon",["Double zabar","Double zer","Double pesh","Sukoon (jazm)","Practice and revision"],["A light “n” sound is added at the end. Stretch the sound a little when reciting.","Practise with the teacher, repeating many times.","Listen for the difference between the three tanween and learn to recognise them.","A small circle means the letter is read without a vowel: the first letter has a vowel, the second is silent.","Mixed practice with tanween and sukoon words, correcting pronunciation."]],
+["Month 5: Madd and Shaddah",["Madd (elongation)","Standing fatha, kasra, inverted damma","Shaddah","Joining letters into words","Practice and revision"],["When a sound is stretched a little longer it is called madd. Practise stretching the sound.","These marks make the sound long, as in baa bee boo.","A shaddah doubles the letter: first with a sukoon, then with a vowel.","Read two- and three-letter words by joining letters.","Practise words with madd and shaddah."]],
+["Month 6: Short Surahs (1)",["Surah Al-Fatihah: verses 1–3","Surah Al-Fatihah: the rest","Surah An-Nas","Surah Al-Falaq","Review"],["The teacher recites one verse at a time and the children repeat. Explain the meaning in simple language.","Memorise the remaining verses, then recite the whole surah once in order.","Six verses. Memorise one verse a day until complete.","Five verses. Teach in small pieces by listening and repeating.","Listen to and recite all three surahs. Give each child a turn and correct pronunciation."]],
+["Month 7: Short Surahs (2)",["Surah Al-Ikhlas","Surah Al-Masad","Surah An-Nasr","Surah Al-Kafirun","Review"],["Four verses on the oneness of Allah. Memorise with a simple meaning.","Five verses. Focus on pronunciation and teach in small pieces.","Three verses. Explain the message of Allah’s help and gratitude.","Six verses. Memorise by repeating many times.","Review the month’s four surahs; each child recites in turn."]],
+["Month 8: Daily Duas",["Before and after eating","Sleeping and waking","Entering and leaving home","Entering the restroom","Dua for parents"],["Say Bismillah before eating and thank Allah afterwards. Build the habit of eating with the right hand.","Say Bismillah and the dua before sleeping and lie on the right side. Thank Allah on waking.","Say Bismillah and greet the family when entering; say Bismillah when leaving too.","Teach the dua; enter with the left foot and leave with the right.","“My Lord, have mercy on them as they raised me when I was small.” Learn it in Arabic with this meaning."]],
+["Month 9: Cleanliness and Prayer Preparation",["Cleanliness","How to make wudu","Adhan etiquette","Preparing for prayer","Parts of the prayer"],["Cleanliness is part of faith. Teach washing hands and face, trimming nails and wearing clean clothes.","Steps in order: intention, hands, rinsing the mouth, nose, face, arms, wiping the head, feet. Practise hands-on.","Teach listening quietly to the adhan, responding to it, and the dua after it.","A clean place, clean clothes and facing the qibla. Teach making the intention in the heart.","Recognise standing, bowing, prostration and sitting. Show each one by doing it."]],
+["Month 10: Kalimas and Faith",["Kalima Tayyiba","Kalima Shahadat","Kalima Tamjeed","Names of Allah (1)","Names of Allah (2)"],["There is no god but Allah; Muhammad ﷺ is the Messenger of Allah. Learn it in Arabic with its meaning.","The declaration of faith: I bear witness that there is no god but Allah alone, and that Muhammad is His servant and messenger.","Glorify Allah, praise Him and declare His oneness and greatness. Learn the Arabic with its meaning.","Allah, Ar-Rahman, Ar-Rahim, Al-Khaliq, Ar-Raziq. Explain the simple meaning of each.","As-Sami, Al-Basir, Al-Ghafur, Al-Karim, Al-Wadud. Give a simple meaning and an everyday example."]],
+["Month 11: Islamic Manners",["Greeting with salam","Telling the truth","Respecting parents","Respecting teachers","Neighbours and guests"],["Say “As-salamu alaykum” and reply “Wa alaykum as-salam”. Make greeting a habit.","Use a short story to show the value of truth and the harm of lying.","Listen attentively, keep a low voice and help them.","Greet the teacher, sit politely, listen and say thank you.","Look after neighbours, respect guests and share your things."]],
+["Month 12: Review and Exam",["Review the primer","Review the surahs","Review duas and kalimas","Oral exam","Annual celebration"],["Review all primer lessons and practise weak letters and vowels again.","Review all the surahs learned, listening to each child.","Review all duas and kalimas with their meanings.","Oral exam: letters, vowels, one surah and one dua. Encourage every child.","Give prizes and certificates and tell parents about the year’s progress."]]
+],
+adults:[
+["Quran and Tajweed",["Points of articulation","Characteristics of letters","Rules of noon sakin and tanween","Rules of meem sakin","Rules of madd","Stopping and starting","Common mistakes","Daily recitation routine"],["There are five main areas: the empty space, throat, tongue, lips and nasal passage. Learn where each letter is produced.","Qualities such as jahr, hams, shiddah, rakhawah, tafkhim and tarqiq distinguish similar letters.","Four rules: idhhar, idgham, iqlab and ikhfa. Practise each with the letters it applies to.","Three rules: ikhfa shafawi, idgham shafawi and idhhar shafawi.","Natural madd and its secondary types: muttasil, munfasil, lazim. Keep the correct length.","Where to pause and where to resume. Learn the pause signs.","Confusing Qaf and Kaf, Tha and Sin, Dhal and Zay and similar pairs. Drill each one.","Recite daily at a fixed time, practise the rules you learn and recite to a qari."]],
+["Prayer and Worship",["Wudu and ghusl","Prayer in full","Prayer supplications","Fasting","Zakat basics","Hajj and Umrah basics"],["Four obligatory acts of wudu (Hanafi): face, arms including elbows, a quarter of the head, feet including ankles. Ghusl: rinse the mouth and nose and wash the whole body.","Pillars: standing, recitation, bowing, prostration and the final sitting. Conditions: purity, covering, qibla, time and intention.","Learn thana, tashahhud, durood Ibrahimi and the closing dua with correct pronunciation.","Fasting means abstaining from food, drink and marital relations from true dawn to sunset. Learn intention, suhoor, iftar and what breaks the fast.","Zakat is two and a half percent of wealth once nisab is reached and a year has passed. Consult a reliable scholar for details and recipients.","A summary of the basic acts, ihram, tawaf and sai. Learn the details from a reliable guide before travelling."]],
+["Everyday Religious Matters",["Halal and haram","Honesty in business","Family rights","Social media etiquette","Good character","Lessons from the Seerah"],["Earn lawfully, avoid interest, deceit and bribery, and be careful with doubtful matters.","Be truthful, give fair measure, keep promises and write down transactions.","Rights of parents, spouse, children and relatives. Kindness and keeping family ties.","Avoid backbiting, slander and false news. Verify before sharing and cite reliable sources in your posts.","Patience, gratitude, forgiveness, controlling anger and humility. Set one good deed to do daily.","Key events of the Prophet’s ﷺ life and the practical lessons they offer."]]
+],
+skills:[
+["3D Animation",["Software introduction","Basic shapes","Modelling a character","Materials and colour","Animating the character","Lighting and camera","Render and export"],["Install a 3D program such as Blender, learn the interface and practise orbiting and zooming in the viewport.","Create cubes, cylinders and spheres and change them with the move, scale and rotate tools.","Join basic shapes into a simple character: head, body, arms and legs.","Apply colour and materials and understand shine and roughness.","Use keyframes to move the character from one place to another and wave its hand.","Set up three-point lighting and choose a camera angle.","Choose render settings and export your animation as a video file."]],
+["Graphic Design",["Design principles","Colour and fonts","Making a logo","YouTube thumbnail","Social media posts","Urdu poster and banner","Building a portfolio"],["Balance, contrast, alignment and white space, with examples.","Build a two- or three-colour palette and choose suitable Nastaliq and Naskh fonts for Urdu.","A simple logo combining shape, colour and name. Test it at different sizes.","Large title, clear image and few words. Size 1280×720.","Know the sizes, keep one consistent style and keep text readable.","Right-to-left layout and easy reading for Urdu text.","Collect your best work into a portfolio to show clients."]],
+["Video Editing",["Meet the editing app","Cutting clips","Audio and music","Transitions and effects","Urdu subtitles","Colour correction","Export and upload"],["Introduction to an app such as CapCut: create a project, use the timeline and import media.","Trim, split and reorder clips and remove unwanted parts.","Balance the audio and add suitable background music. Use copyright-free music.","Use transitions and effects sparingly so the video stays clean.","Auto captions, correcting mistakes and choosing a font.","Adjust brightness, contrast and saturation.","Export at a suitable resolution and upload to YouTube with a title, description and tags."]],
+["AI Generation",["Types of AI tools","Writing a good prompt","Making images with AI","Making video with AI","Script and voice","Editing AI content","Final project"],["Text, image, video and audio tools. Choose free and reliable ones.","Clear goal, detail, style and example. Improve one prompt and compare the results.","Generate images and adjust them as you wish.","Create short clips and join them together.","Have a script written and generate a voice. Read and correct all content yourself.","Combine AI material in an editing app and fix mistakes. Take extra care and verify sources for Islamic content.","Make a complete video with topic, script, images, voice and editing."]],
+["Social Media Management",["Know the platforms","Profile and branding","Weekly content calendar","Scheduling posts","Growing followers","Comments and messages","Monthly report"],["Features of Facebook, YouTube, Instagram and TikTok, and how their audiences differ.","Profile picture, name, bio and link: the same branding everywhere.","Plan what to post each day and keep a list of topics.","Tools for scheduling posts and reels and choosing good times.","Useful content, consistency, hashtags and engaging with your audience.","Reply promptly and politely and handle unwelcome comments.","Track views, followers and responses. Lawful ways to earn, such as monetisation and services."]]
+]};
+var UI={
+ur:{title:"آل پرو فری | مفت ڈیجیٹل سکلز اور اسلامی تعلیم",brand:"آل پرو فری",teacher:"قاری گلزار احمد",heroP:"اردو میں مفت ڈیجیٹل سکلز اور مکمل اسلامی تعلیم۔ روزانہ نیا سبق، ترتیب وار کورسز اور رہنمائی۔",yt:"یوٹیوب چینل",nDaily:"آج کے اسباق",nLearn:"نصاب",nContact:"رابطہ",login:"لاگ ان",loginT:"پروفائل / لاگ ان",loginP:"اپنا نام لکھیں۔ آپ کی پیش رفت اسی ڈیوائس پر آپ کے نام سے محفوظ ہوگی۔",ph:"آپ کا نام",ok:"جاری رکھیں",close:"بند کریں",out:"لاگ آؤٹ",dailyT:"روزانہ کے اسباق اور کیلنڈر",dailyP:"ہر دن تینوں نصابوں کا ایک ایک سبق۔ کسی بھی دن پر دبا کر اس دن کا سبق دیکھیں۔",updT:"تازہ اپڈیٹس",learnT:"نصاب اور کورسز",learnP:"ہر کورس ترتیب وار ہے۔ سبق مکمل ہونے پر نشان لگائیں، پیش رفت آپ کے پروفائل میں محفوظ رہے گی۔",done:"مکمل: ",lessonsN:"سبق",mark:"سبق مکمل کریں",unmark:"نشان ہٹائیں",prev:"پچھلا",next:"اگلا",dayN:"دن نمبر",notStarted:"اس تاریخ سے اسباق شروع نہیں ہوئے۔",ctaT:"رابطہ کریں",callB:"کال کریں",nCourses:"کورسز",coursesT:"کورسز اور رہنمائی",coursesP:"کسی بھی کورس پر دبائیں اور اس کی مکمل تحریری گائیڈ پڑھیں۔",aboutT:"تعارف",aboutP:"قاری گلزار احمد اسلامی استاد ہیں اور آل پرو فری چلاتے ہیں۔ اس چینل پر اردو میں مفت ڈیجیٹل سکلز، یعنی تھری ڈی اینیمیشن، گرافک ڈیزائن، ویڈیو ایڈیٹنگ، اے آئی اور سوشل میڈیا مینجمنٹ، کے ساتھ اسلامی تعلیم بھی سکھائی جاتی ہے۔",guideBtn:"تحریری گائیڈ پڑھیں",stepsT:"سیکھنے کا طریقہ",more:"مزید رہنمائی: یوٹیوب چینل",kidsMeta:"4 سے 5 سال · 60 سبق",ytMore:"مزید رہنمائی کے لیے یوٹیوب چینل",restart:"آج سے دوبارہ شروع کریں",startedOn:"آپ کی شروعات: ",srchPh:"سبق تلاش کریں…",noRes:"کوئی سبق نہیں ملا۔",video:"ویڈیو دیکھیں",quiz:"کوئز حل کریں",right:"✓ درست",wrong:"✗ غلط",testB:"ٹیسٹ",testT:"ٹیسٹ",score:"اسکور: ",cert:"سند ڈاؤنلوڈ کریں",certT:"سند",certP:"اس بات کی تصدیق کی جاتی ہے کہ",certD:"نے یہ کورس کامیابی سے مکمل کیا",saveHint:"تصویر کو دیر تک دبا کر محفوظ کریں، یا نیچے ڈاؤنلوڈ دبائیں۔",dl:"ڈاؤنلوڈ",student:"طالب علم",goal:"مقصد",practice:"مشق",tip:"والدین یا استاد کے لیے مشورہ",waB:"واٹس ایپ پر پیغام",footer:"© آل پرو فری | قاری گلزار احمد | کیو جی کریشنز۔ تمام حقوق محفوظ ہیں۔"},
+en:{title:"All Pro Free | Free Digital Skills and Islamic Education",brand:"All Pro Free",teacher:"Qari Gulzar Ahmad",heroP:"Free digital skills and complete Islamic education in Urdu. A new lesson every day, sequenced courses and guidance.",yt:"YouTube Channel",nDaily:"Today’s Lessons",nLearn:"Curriculum",nContact:"Contact",login:"Log in",loginT:"Profile / Log in",loginP:"Enter your name. Your progress is saved on this device under your name.",ph:"Your name",ok:"Continue",close:"Close",out:"Log out",dailyT:"Daily Lessons and Calendar",dailyP:"One lesson from each curriculum every day. Tap any day to see its lessons.",updT:"Latest Updates",learnT:"Curriculum and Courses",learnP:"Every course is sequenced. Tick lessons as you finish them; your progress is saved in your profile.",done:"Done: ",lessonsN:"lessons",mark:"Mark as done",unmark:"Undo",prev:"Previous",next:"Next",dayN:"Day",notStarted:"Lessons had not started on this date.",ctaT:"Get in touch",callB:"Call",nCourses:"Courses",coursesT:"Courses and Guides",coursesP:"Tap any course to read its full written guide.",aboutT:"About",aboutP:"Qari Gulzar Ahmad is an Islamic teacher who runs All Pro Free. The channel teaches free digital skills in Urdu, including 3D animation, graphic design, video editing, AI and social media management, alongside Islamic education.",guideBtn:"Read the written guide",stepsT:"How to learn",more:"More guidance: YouTube channel",kidsMeta:"Ages 4–5 · 60 lessons",ytMore:"More guidance on the YouTube channel",restart:"Restart from today",startedOn:"Your start date: ",srchPh:"Search lessons…",noRes:"No lessons found.",video:"Watch the video",quiz:"Take the quiz",right:"✓ Correct",wrong:"✗ Wrong",testB:"Test",testT:"Test",score:"Score: ",cert:"Get certificate",certT:"Certificate",certP:"This certifies that",certD:"has successfully completed the course",saveHint:"Press and hold the image to save it, or use Download below.",dl:"Download",student:"Student",goal:"Goal",practice:"Practice",tip:"Tip for parent or teacher",waB:"Message on WhatsApp",footer:"© All Pro Free | Qari Gulzar Ahmad | QG Creations. All rights reserved."}
+};
+var UPD=[
+{d:"2026-10-25",ur:"آل پرو فری ویب سائٹ پر خوش آمدید۔ ہر روز تین نئے اسباق یہاں ملیں گے۔",en:"Welcome to the All Pro Free website. Three lessons appear here every day."},
+{d:"2026-10-25",ur:"اپنا نام درج کر کے پروفائل بنائیں تاکہ آپ کی پیش رفت محفوظ رہے۔",en:"Create a profile with your name so your progress is saved."}
+];
+var YT="https://www.youtube.com/@AllProFree",ROOT=document.getElementById("apf"),L="ur",user="",store={},cur=0,BAR={};
+var START=new Date(),sel=new Date(),vm=new Date(sel.getFullYear(),sel.getMonth(),1);
+try{L=localStorage.getItem("apf-lang")==="en"?"en":"ur";user=localStorage.getItem("apf-user")||"";}catch(e){}
+function sk(){return "apf"+(user?":"+user:"");}
+function load(){store={};try{store=JSON.parse(localStorage.getItem(sk())||"{}")||{};}catch(e){store={};}initStart();}
+function save(){try{localStorage.setItem(sk(),JSON.stringify(store));}catch(e){}}
+function T(k){return UI[L][k];}
+function el(t,c,x){var e=document.createElement(t);if(c){e.className=c;}if(x!=null){e.textContent=x;}return e;}
+function q(id){return document.getElementById(id);}
+function loc(){return L==="ur"?"ur-PK":"en-GB";}
+function tabName(i){return L==="en"?EN.tabs[i]:DATA[i].tab;}
+function gname(d,gi){return L==="en"?EN[d.id][gi][0]:d.groups[gi][0];}
+function ltitle(d,gi,li){return L==="en"?EN[d.id][gi][1][li]:d.groups[gi][1][li];}
+function ltext(d,gi,li){return L==="en"?EN[d.id][gi][2][li]:TXT[d.id][gi][li];}
+function key(d,gi,li){return d.id+gi+"-"+li;}
+function progress(d){var t=0,n=0;d.groups.forEach(function(g,gi){g[1].forEach(function(_,li){t++;if(store[key(d,gi,li)]){n++;}});});return [n,t];}
+function updBar(){CERTS.forEach(function(x){x[0].hidden=!grpDone(x[1],x[2]);});var p=progress(DATA[cur]);BAR.lab.textContent=T("done")+p[0]+" / "+p[1];BAR.fill.style.width=(p[1]?p[0]/p[1]*100:0)+"%";}
+function row(d,gi,li,which,pre){
+var k=key(d,gi,li),tt=(pre?pre+" — ":"")+ltitle(d,gi,li),r=el("li",store[k]?"done":""),cb=document.createElement("input");
+cb.type="checkbox";cb.checked=!!store[k];cb.setAttribute("aria-label",T("mark")+": "+tt);
+var b=el("button","",tt),box=el("div","tx",ltext(d,gi,li)),mb=el("button","mk");
+mb.type="button";b.type="button";var ml=el("a","yl",T("more"));ml.href=YT;ml.target="_blank";ml.rel="noopener";box.hidden=true;b.setAttribute("aria-expanded","false");
+function sync(){mb.textContent=cb.checked?T("unmark"):T("mark");r.className=cb.checked?"done":"";}
+sync();
+cb.onchange=function(){if(cb.checked){store[k]=1;}else{delete store[k];}save();sync();if(which==="track"){updBar();renderDay();}else{renderTrack();}renderCal();};
+mb.onclick=function(){cb.checked=!cb.checked;cb.onchange();};
+b.onclick=function(){box.hidden=!box.hidden;b.setAttribute("aria-expanded",String(!box.hidden));};
+extras(box,k);box.appendChild(mb);box.appendChild(ml);r.appendChild(cb);r.appendChild(b);r.appendChild(box);return r;}
+function renderTrack(){
+var tabs=q("tabs"),panel=q("panel"),d=DATA[cur];tabs.innerHTML="";panel.innerHTML="";CERTS=[];
+DATA.forEach(function(x,k){var b=el("button","",tabName(k));b.type="button";b.setAttribute("role","tab");b.setAttribute("aria-selected",String(k===cur));b.onclick=function(){cur=k;renderTrack();};tabs.appendChild(b);});
+panel.appendChild(el("p","intro",L==="en"?EN.intro[cur]:d.intro));
+var bar=el("div","bar"),lab=el("span"),tr=el("i"),fill=el("b");tr.appendChild(fill);bar.appendChild(lab);bar.appendChild(tr);panel.appendChild(bar);BAR.lab=lab;BAR.fill=fill;updBar();
+d.groups.forEach(function(g,gi){
+var det=el("details"),sm=el("summary");sm.appendChild(el("b","",gname(d,gi)));sm.appendChild(el("span","",g[1].length+" "+T("lessonsN")));det.appendChild(sm);var gb=el("button","gb",T("guideBtn"));gb.type="button";gb.onclick=function(){openGuide(d,gi);};det.appendChild(gb);if(grpHasQuiz(d,gi)){var tb=el("button","gb",T("testB"));tb.type="button";tb.onclick=function(){openTest(d,gi);};det.appendChild(tb);}var cb2=el("button","gb cert",T("cert"));cb2.type="button";cb2.hidden=!grpDone(d,gi);cb2.onclick=function(){cert(d,gi);};det.appendChild(cb2);CERTS.push([cb2,d,gi]);
+var ol=el("ol");g[1].forEach(function(_,li){ol.appendChild(row(d,gi,li,"track"));});det.appendChild(ol);if(gi===0){det.open=true;}panel.appendChild(det);});}
+function dn(x){return Math.round((new Date(x.getFullYear(),x.getMonth(),x.getDate())-START)/864e5);}
+function pick(d,n){var f=[];d.groups.forEach(function(g,gi){g[1].forEach(function(_,li){f.push([gi,li]);});});return f[((n%f.length)+f.length)%f.length];}
+function allDone(date){var n=dn(date);if(n<0){return false;}return DATA.every(function(d){var p=pick(d,n);return store[key(d,p[0],p[1])];});}
+function renderDay(){
+var box=q("day"),n=dn(sel);box.innerHTML="";
+box.appendChild(el("div","dh",sel.toLocaleDateString(loc(),{weekday:"long",day:"numeric",month:"long",year:"numeric"})));
+if(n<0){box.appendChild(el("p","note",T("notStarted")));return;}
+box.appendChild(el("p","note",T("dayN")+" "+(n+1)+" · "+T("startedOn")+START.toLocaleDateString(loc(),{day:"numeric",month:"long",year:"numeric"})));
+var ol=el("ol");DATA.forEach(function(d,k){var p=pick(d,n);ol.appendChild(row(d,p[0],p[1],"day",tabName(k)));});box.appendChild(ol);}
+function renderCal(){
+var c=q("cal");c.innerHTML="";
+var hd=el("div","calhead"),pv=el("button","",T("prev")),nx=el("button","",T("next")),mt=el("span","",vm.toLocaleDateString(loc(),{month:"long",year:"numeric"}));
+pv.type="button";nx.type="button";
+pv.onclick=function(){vm=new Date(vm.getFullYear(),vm.getMonth()-1,1);renderCal();};
+nx.onclick=function(){vm=new Date(vm.getFullYear(),vm.getMonth()+1,1);renderCal();};
+hd.appendChild(pv);hd.appendChild(mt);hd.appendChild(nx);c.appendChild(hd);
+var g=el("div","cal");
+for(var w=0;w<7;w++){g.appendChild(el("b","",new Date(2026,9,25+w).toLocaleDateString(loc(),{weekday:"short"})));}
+var first=vm.getDay(),days=new Date(vm.getFullYear(),vm.getMonth()+1,0).getDate(),today=new Date();
+for(var i=0;i<first;i++){g.appendChild(el("span"));}
+for(var x=1;x<=days;x++){(function(x){
+var date=new Date(vm.getFullYear(),vm.getMonth(),x),b=el("button","",String(x)),cls=[];
+b.type="button";
+if(dn(date)<0){b.disabled=true;}
+if(date.toDateString()===today.toDateString()){cls.push("today");}
+if(date.toDateString()===sel.toDateString()){cls.push("sel");}
+if(allDone(date)){cls.push("all");}
+b.className=cls.join(" ");
+b.onclick=function(){sel=date;renderDay();renderCal();};
+g.appendChild(b);})(x);}
+c.appendChild(g);}
+function renderUpd(){
+var b=q("upd");b.innerHTML="";
+UPD.slice().sort(function(a,c){return a.d<c.d?1:-1;}).slice(0,6).forEach(function(u){
+var r=el("div","upd");r.appendChild(el("time","",new Date(u.d+"T00:00:00").toLocaleDateString(loc(),{day:"numeric",month:"short"})));r.appendChild(el("span","",u[L]));b.appendChild(r);});}
+function applyLang(){
+ROOT.lang=L;ROOT.dir=L==="ur"?"rtl":"ltr";
+var els=ROOT.querySelectorAll("[data-i]");
+for(var i=0;i<els.length;i++){els[i].textContent=T(els[i].getAttribute("data-i"));}
+q("lang").textContent=L==="ur"?"English":"اردو";
+q("login").textContent=user?user:T("login");
+q("uname").placeholder=T("ph");q("srch").placeholder=T("srchPh");q("srch").value="";q("sres").innerHTML="";
+q("out").hidden=!user;
+try{document.title=T("title");}catch(e){}
+renderCourses();renderUpd();renderDay();renderCal();renderTrack();}
+var GUIDE={
+kids:[{
+ur:["بچوں کی بنیادی دینی تعلیم کے لیے والدین اور استاد کی رہنمائی۔","روزانہ 15 سے 20 منٹ کا مقررہ وقت رکھیں اور ایک وقت میں صرف ایک سبق پڑھائیں۔","استاد پہلے پڑھے، بچہ دہرائے، پھر خود پڑھے۔ ہر سبق دو تین بار دہرائیں۔","ہفتے کے آخر میں پورے ہفتے کی دہرائی کریں اور اچھی کوشش پر حوصلہ افزائی کریں۔","بچے کی رفتار کے مطابق آگے بڑھیں اور تلفظ کے لیے کسی قاری سے مدد لیں۔"],
+en:["Guidance for parents and teachers on a child’s basic Islamic education.","Keep a fixed time of 15 to 20 minutes a day and teach only one lesson at a time.","The teacher reads first, the child repeats, then reads alone. Repeat each lesson two or three times.","At the end of the week review the whole week and praise good effort.","Move at the child’s pace and ask a qari for help with pronunciation."]}],
+adults:[
+{ur:["تجوید کا مقصد قرآن کو درست مخارج اور صفات کے ساتھ پڑھنا ہے۔","کسی قاری کے سامنے بیٹھ کر ہر سبق سنیں اور سنائیں، صرف کتاب سے سیکھنا کافی نہیں۔","ہر حکم کی مثالیں خود الگ نکال کر بار بار پڑھیں۔","روزانہ ایک مقررہ مقدار کی تلاوت میں سیکھے ہوئے احکام لاگو کریں۔","اپنی تلاوت ریکارڈ کر کے سنیں تاکہ اپنی غلطی خود پکڑ سکیں۔"],
+en:["Tajweed means reciting the Quran with correct articulation points and qualities.","Sit with a qari and recite each lesson to him; learning from a book alone is not enough.","Pick out examples of each rule yourself and read them again and again.","Apply the rules you learn in a fixed daily portion of recitation.","Record your recitation and listen back so you can catch your own mistakes."]},
+{ur:["عبادات کے بنیادی مسائل کی ترتیب وار رہنمائی۔","پہلے وضو، پھر نماز، پھر روزہ، زکوٰۃ اور حج کی ترتیب سے پڑھیں۔","ہر مسئلہ عمل کر کے سیکھیں، مثلاً وضو اور نماز کو اصل میں کر کے دیکھیں۔","کوئی مشکل یا اختلافی مسئلہ ہو تو اپنے مستند مفتی یا عالم سے رجوع کریں۔","یہ اسباق مختصر رہنمائی ہیں، فتویٰ کا متبادل نہیں۔"],
+en:["Sequenced guidance on the basic rulings of worship.","Study in order: wudu, then prayer, then fasting, zakat and Hajj.","Learn each ruling by doing it, for example make wudu and pray as you study.","For any difficult or disputed matter, consult your trusted mufti or scholar.","These lessons are brief guidance, not a substitute for a fatwa."]},
+{ur:["روزمرہ زندگی میں دین پر عمل کی عملی رہنمائی۔","ہر ہفتے ایک موضوع چنیں اور اس پر مختصر نوٹ لکھیں۔","اپنی زندگی کی ایک مثال سوچیں جہاں یہ اصول لاگو ہوتا ہے۔","گھر والوں سے اس پر بات کریں اور مل کر عمل کا فیصلہ کریں۔","ایک وقت میں ایک اچھی عادت اپنائیں، پھر اگلی کی طرف بڑھیں۔"],
+en:["Practical guidance on living by the faith in daily life.","Choose one topic a week and write a short note on it.","Think of an example from your own life where the principle applies.","Discuss it with your family and decide together how to act on it.","Adopt one good habit at a time, then move on to the next."]}],
+skills:[
+{ur:["تھری ڈی اینیمیشن میں شکلیں بنانا، رنگ دینا اور حرکت ڈالنا سیکھیں گے۔","بلینڈر جیسا مفت سافٹ ویئر انسٹال کریں اور پہلے سبق سے ترتیب سے چلیں۔","ہر سبق کے بعد وہی کام خود دہرائیں اور پروجیکٹ فائل محفوظ رکھیں۔","آخر میں اپنا مختصر اینیمیشن کلپ بنا کر یوٹیوب پر ڈالیں۔","شروع میں سادہ اشکال سے کام کریں، پیچیدہ کردار بعد میں بنائیں۔"],
+en:["You will learn to model shapes, colour them and set them in motion.","Install free software such as Blender and follow the lessons in order.","After each lesson repeat the same work yourself and keep the project file.","At the end make a short animation clip and upload it to YouTube.","Start with simple shapes and build complex characters later."]},
+{ur:["گرافک ڈیزائن میں لوگو، پوسٹر اور تھمب نیل بنانے کا ہنر سیکھیں گے۔","کینوا جیسی مفت ڈیزائن ایپ سے شروع کریں اور اردو فونٹ انسٹال کریں۔","ہر ہفتے ایک لوگو، ایک پوسٹر اور ایک تھمب نیل بنائیں۔","اپنے بہترین کام جمع کر کے پورٹ فولیو بنائیں۔","پہلے اچھے ڈیزائن دیکھ کر سیکھیں، پھر اپنا انداز بنائیں۔"],
+en:["You will learn to make logos, posters and thumbnails.","Start with a free design app such as Canva and install an Urdu font.","Each week make one logo, one poster and one thumbnail.","Collect your best work into a portfolio.","Study good designs first, then develop your own style."]},
+{ur:["ویڈیو ایڈیٹنگ میں کلپ جوڑنا، آواز، سب ٹائٹل اور ایکسپورٹ سیکھیں گے۔","موبائل پر کیپ کٹ یا کمپیوٹر پر کوئی مفت ایڈیٹر انسٹال کریں۔","ایک مختصر ویڈیو شوٹ کریں اور ہر سبق میں اسی پر نئی چیز آزمائیں۔","ایکسپورٹ کر کے یوٹیوب پر اپ لوڈ کریں اور ناظرین کی رائے لیں۔","کاپی رائٹ فری موسیقی اور تصاویر ہی استعمال کریں۔"],
+en:["You will learn joining clips, audio, subtitles and exporting.","Install CapCut on your phone or any free editor on your computer.","Shoot one short video and try something new on it in each lesson.","Export, upload to YouTube and ask viewers for feedback.","Use only copyright-free music and images."]},
+{ur:["اے آئی ٹولز سے تصاویر، ویڈیو اور آواز بنانا سیکھیں گے۔","کوئی مفت اے آئی ٹول چنیں اور روزانہ ایک پرامپٹ لکھ کر نتیجہ دیکھیں۔","اچھے پرامپٹ محفوظ رکھیں اور ان میں بہتری کرتے رہیں۔","نتیجے کو ایڈیٹنگ ایپ میں ملا کر مکمل ویڈیو بنائیں۔","اے آئی کا مواد خود جانچیں، خاص طور پر دینی مواد، اور مستند حوالہ شامل کریں۔"],
+en:["You will learn to make images, video and voice with AI tools.","Choose a free AI tool and write one prompt a day to see the result.","Save good prompts and keep improving them.","Combine the results in an editing app to make a complete video.","Check AI content yourself, especially religious content, and add a reliable source."]},
+{ur:["سوشل میڈیا مینجمنٹ میں پیج چلانا، مواد کی منصوبہ بندی اور فالوورز بڑھانا سیکھیں گے۔","ایک پلیٹ فارم چنیں اور اس پر مکمل پروفائل بنائیں۔","ایک ہفتے کا مواد پہلے سے تیار کر کے شیڈول کریں۔","ہر ہفتے ویوز اور ردعمل دیکھ کر اگلی منصوبہ بندی بہتر کریں۔","روزانہ ایک جیسا وقت اور انداز رکھیں، تسلسل سب سے اہم ہے۔"],
+en:["You will learn to run a page, plan content and grow followers.","Pick one platform and set up a complete profile.","Prepare a week of content in advance and schedule it.","Review views and responses weekly and improve your next plan.","Keep a steady time and style every day; consistency matters most."]}]
+};
+function openGuide(d,gi){
+var g=(GUIDE[d.id][gi]||GUIDE[d.id][0])[L],k=DATA.indexOf(d),b=q("gb");
+q("gt").textContent=d.id==="kids"?tabName(k):gname(d,gi);
+b.innerHTML="";b.appendChild(el("p","",g[0]));b.appendChild(el("h4","",T("stepsT")));
+var ol=el("ol");g.slice(1,4).forEach(function(s){ol.appendChild(el("li","",s));});b.appendChild(ol);
+b.appendChild(el("p","note",g[4]));q("gmodal").hidden=false;}
+function renderCourses(){
+var c=q("courses");c.innerHTML="";
+DATA.forEach(function(d,k){var list=d.id==="kids"?[0]:d.groups.map(function(_,i){return i;});
+list.forEach(function(gi){var b=el("button","cc");b.type="button";
+b.appendChild(el("b","",d.id==="kids"?tabName(k):gname(d,gi)));
+b.appendChild(el("span","",d.id==="kids"?T("kidsMeta"):tabName(k)));
+b.onclick=function(){openGuide(d,gi);};c.appendChild(b);});});}
+q("gno").onclick=function(){q("gmodal").hidden=true;};
+q("gmodal").onclick=function(e){if(e.target===q("gmodal")){q("gmodal").hidden=true;}};
+q("photo1").src=PHOTO;q("photo2").src=PHOTO;
+var CERTS=[],VID={};
+/* VID: سبق کی چابی کے ساتھ یوٹیوب ویڈیو کا لنک، مثلاً VID["kids0-0"]="https://youtu.be/..." */
+var FULL={
+"kids0-0":{
+ur:["ا ب ت ث چاروں حروف کی شکل اور آواز پہچاننا۔",["استاد حرف کا نام بولے: الف، با، تا، ثا، اور بچہ ہر بار دہرائے۔","الف سیدھی کھڑی لکیر ہے اور اس پر نقطہ نہیں۔ با کے نیچے ایک نقطہ، تا کے اوپر دو اور ثا کے اوپر تین نقطے ہیں۔","ہر حرف کے نقطے انگلی سے گنوائیں اور ہوا میں شکل بنوائیں۔"],"چاروں حروف کے کارڈ ملا کر رکھیں اور بچہ ایک ایک اٹھا کر نام اور نقطے بتائے۔","ایک دن میں زیادہ نہ پڑھائیں۔ پانچ سے دس منٹ کافی ہیں۔"],
+en:["Recognise the shape and sound of the four letters Alif, Ba, Ta and Tha.",["The teacher says each name (Alif, Ba, Ta, Tha) and the child repeats it every time.","Alif is a straight standing line with no dot. Ba has one dot below, Ta has two above and Tha has three above.","Have the child count each letter’s dots with a finger and draw its shape in the air."],"Shuffle the four letter cards; the child picks one at a time and names it and its dots.","Do not teach too much in one day. Five to ten minutes is enough."]},
+"kids0-1":{
+ur:["ج ح خ کی شکل میں فرق پہچاننا۔",["تینوں حروف کی شکل ملتی جلتی ہے اور فرق نقطے سے ہوتا ہے۔","جیم کے اندر ایک نقطہ ہے، حا پر کوئی نقطہ نہیں اور خا کے اوپر ایک نقطہ ہے۔","بار بار نام بولیں: جیم، حا، خا، اور آواز کا فرق سنیں۔"],"تین کارڈ سامنے رکھ کر بچے سے پوچھیں: نقطے والا حرف کون سا ہے؟","حا اور خا کی آواز حلق سے نکلتی ہے۔ بچے کو آہستہ سنوائیں اور نقل کروائیں۔"],
+en:["Tell apart the shapes of Jim, Ha and Kha.",["The three letters look alike and differ only by the dot.","Jim has a dot inside, Ha has no dot and Kha has a dot above.","Say the names again and again — Jim, Ha, Kha — and listen for the difference in sound."],"Put three cards in front of the child and ask: which letter has a dot?","Ha and Kha are made in the throat. Let the child listen slowly and imitate you."]},
+"kids0-2":{
+ur:["د ذ ر ز کو پہچاننا اور یہ جاننا کہ یہ آگے نہیں جڑتے۔",["چاروں حروف کی شکل دکھائیں اور نام بولیں: دال، ذال، را، زا۔","ذال اور زا پر ایک نقطہ ہے، دال اور را پر نہیں۔","بتائیں کہ یہ حروف اپنے بعد والے حرف سے نہیں جڑتے۔"],"جوڑیاں ملائیں: دال اور ذال میں، را اور زا میں فرق بتائیں۔","ملتے جلتے حروف کی جوڑیاں ایک ایک کر کے سکھائیں۔"],
+en:["Recognise Dal, Dhal, Ra and Zay, and know that they do not join to the next letter.",["Show the four shapes and say the names: Dal, Dhal, Ra, Zay.","Dhal and Zay have one dot; Dal and Ra have none.","Explain that these letters do not join to the letter after them."],"Match the pairs: tell the difference between Dal and Dhal, and between Ra and Zay.","Teach similar pairs one at a time."]},
+"kids0-3":{
+ur:["س ش ص ض میں فرق کرنا۔",["سین کے تین دندانے ہیں اور نقطہ نہیں، شین کے اوپر تین نقطے ہیں۔","صاد کا پیٹ گول ہے اور نقطہ نہیں، ضاد کے اوپر ایک نقطہ ہے۔","صاد اور ضاد کی آواز موٹی ہوتی ہے اور سین کی باریک۔ تینوں آوازیں سنوائیں۔"],"ہر حرف کا کارڈ دکھا کر بچے سے نام اور نقطے پوچھیں۔","موٹی اور باریک آواز کے فرق پر زیادہ وقت لگائیں۔"],
+en:["Tell apart Sin, Shin, Sad and Dad.",["Sin has three teeth and no dot; Shin has three dots above.","Sad has a round belly and no dot; Dad has one dot above.","Sad and Dad are heavy sounds and Sin is light. Let the child hear all of them."],"Show each letter card and ask the child for its name and dots.","Spend extra time on the difference between heavy and light sounds."]},
+"kids0-4":{
+ur:["ط ظ ع غ کو پہچاننا۔",["طا اور ظا موٹی آواز والے حروف ہیں؛ ظا کے اوپر ایک نقطہ ہے۔","عین کی آواز حلق کے درمیان سے نکلتی ہے۔ غین کی آواز اوپری حلق سے نکلتی ہے اور اس پر ایک نقطہ ہے۔","استاد کے ساتھ آہستہ آہستہ چاروں حروف کئی بار بولیں۔"],"چاروں حروف سن کر پہچانیں: استاد نام بولے اور بچہ کارڈ اٹھائے۔","عین اور غین مشکل ہیں۔ بچہ غلطی کرے تو بار بار سنوائیں، ڈانٹیں نہیں۔"],
+en:["Recognise Ta, Za, Ain and Ghain.",["Ta and Za are heavy letters; Za has one dot above.","Ain is made in the middle of the throat. Ghain is made higher in the throat and has one dot.","Say the four letters slowly with the teacher, several times."],"Identify the letters by ear: the teacher says a name and the child picks up the card.","Ain and Ghain are difficult. If the child makes a mistake, let them hear it again and again; do not scold."]}
+};
+var QUIZ={
+"kids0-0":{ur:[["با کے نیچے کتنے نقطے ہوتے ہیں؟","ایک","دو","تین",0],["ثا کے اوپر کتنے نقطے ہوتے ہیں؟","ایک","دو","تین",2]],en:[["How many dots are below Ba?","One","Two","Three",0],["How many dots are above Tha?","One","Two","Three",2]]},
+"kids0-1":{ur:[["حا پر کتنے نقطے ہوتے ہیں؟","کوئی نہیں","ایک","دو",0],["خا کا نقطہ کہاں ہوتا ہے؟","اوپر","نیچے","اندر",0]],en:[["How many dots does Ha have?","None","One","Two",0],["Where is the dot of Kha?","Above","Below","Inside",0]]},
+"kids0-2":{ur:[["کون سا حرف اپنے بعد والے حرف سے نہیں جڑتا؟","دال","با","تا",0],["کس حرف پر نقطہ ہے؟","دال","ذال","را",1]],en:[["Which letter does not join the one after it?","Dal","Ba","Ta",0],["Which letter has a dot?","Dal","Dhal","Ra",1]]},
+"kids0-3":{ur:[["شین پر کتنے نقطے ہوتے ہیں؟","ایک","دو","تین",2],["صاد اور ضاد میں نقطہ کس پر ہے؟","صاد","ضاد","دونوں",1]],en:[["How many dots does Shin have?","One","Two","Three",2],["Which has a dot, Sad or Dad?","Sad","Dad","Both",1]]},
+"kids0-4":{ur:[["ظا پر نقطہ ہوتا ہے؟","ہاں، اوپر","نہیں","ہاں، نیچے",0],["عین کی آواز کہاں سے نکلتی ہے؟","حلق","ہونٹ","ناک",0]],en:[["Does Za have a dot?","Yes, above","No","Yes, below",0],["Where does the sound of Ain come from?","Throat","Lips","Nose",0]]}
+};
+function grpDone(d,gi){return d.groups[gi][1].every(function(_,li){return store[key(d,gi,li)];});}
+function grpHasQuiz(d,gi){return d.groups[gi][1].some(function(_,li){return QUIZ[key(d,gi,li)];});}
+function qwrap(items,cb){
+var w=el("div","qz");
+items.forEach(function(it){
+var qd=el("div","qq"),res=el("span","qr"),done=false,bs=[];
+qd.appendChild(el("p","",it[0]));
+for(var j=1;j<=3;j++){(function(j){
+var b=el("button","qo",it[j]);b.type="button";bs.push(b);
+b.onclick=function(){if(done){return;}done=true;var ok=(j-1===it[4]);res.textContent=ok?T("right"):T("wrong");res.className="qr "+(ok?"ok":"bad");cb(ok);};
+qd.appendChild(b);})(j);}
+qd.appendChild(res);w.appendChild(qd);});
+return w;}
+function extras(box,k){
+var F=FULL[k];
+if(F){var f=F[L],w=el("div","fl"),ol=el("ol");
+w.appendChild(el("h5","",T("goal")));w.appendChild(el("p","",f[0]));
+w.appendChild(el("h5","",T("stepsT")));f[1].forEach(function(s){ol.appendChild(el("li","",s));});w.appendChild(ol);
+w.appendChild(el("h5","",T("practice")));w.appendChild(el("p","",f[2]));
+w.appendChild(el("h5","",T("tip")));w.appendChild(el("p","",f[3]));box.appendChild(w);}
+if(QUIZ[k]){var qb=el("button","mk",T("quiz")),qc=el("div","qz2");qb.type="button";qc.hidden=true;qc.appendChild(qwrap(QUIZ[k][L],function(){}));qb.onclick=function(){qc.hidden=!qc.hidden;};box.appendChild(qb);box.appendChild(qc);}
+if(VID[k]){var vl=el("a","yl",T("video"));vl.href=VID[k];vl.target="_blank";vl.rel="noopener";box.appendChild(vl);}}
+function openTest(d,gi){
+var items=[],sc=0,tot=0,b=q("gb"),s=el("p","dh","");
+d.groups[gi][1].forEach(function(_,li){var Q=QUIZ[key(d,gi,li)];if(Q){items=items.concat(Q[L]);}});
+tot=items.length;
+function upd(){s.textContent=T("score")+sc+" / "+tot;}
+q("gt").textContent=T("testT")+": "+gname(d,gi);b.innerHTML="";upd();b.appendChild(s);
+b.appendChild(qwrap(items,function(ok){if(ok){sc++;}upd();}));q("gmodal").hidden=false;}
+function cert(d,gi){
+var name=user||T("student"),cv=document.createElement("canvas");cv.width=1200;cv.height=800;
+var x=cv.getContext("2d"),ff=L==="ur"?'"Noto Nastaliq Urdu",serif':'Georgia,serif';
+function draw(){
+x.fillStyle="#fffaf0";x.fillRect(0,0,1200,800);
+x.strokeStyle="#10163f";x.lineWidth=14;x.strokeRect(30,30,1140,740);
+x.strokeStyle="#f2b134";x.lineWidth=4;x.strokeRect(54,54,1092,692);
+x.textAlign="center";x.direction=L==="ur"?"rtl":"ltr";
+x.fillStyle="#0b8f6a";x.font="bold 46px "+ff;x.fillText(T("brand"),600,150);
+x.fillStyle="#10163f";x.font="bold 64px "+ff;x.fillText(T("certT"),600,270);
+x.font="30px "+ff;x.fillText(T("certP"),600,350);
+x.fillStyle="#b97d00";x.font="bold 56px "+ff;x.fillText(name,600,440);
+x.fillStyle="#10163f";x.font="30px "+ff;x.fillText(T("certD"),600,510);
+x.font="bold 40px "+ff;x.fillText(gname(d,gi),600,580);
+x.font="26px "+ff;x.fillText(new Date().toLocaleDateString(loc(),{day:"numeric",month:"long",year:"numeric"}),600,660);
+x.fillText(T("teacher"),600,715);
+var u=cv.toDataURL("image/png"),b=q("gb"),im=el("img","certimg"),a=el("a","btn main",T("dl"));
+q("gt").textContent=T("certT");b.innerHTML="";im.src=u;im.alt=T("certT");b.appendChild(im);
+b.appendChild(el("p","note",T("saveHint")));a.href=u;a.download="certificate.png";a.style.margin="0";b.appendChild(a);
+q("gmodal").hidden=false;}
+if(document.fonts&&document.fonts.load){document.fonts.load('40px "Noto Nastaliq Urdu"').then(draw,draw);}else{draw();}}
+function newStart(){var n=new Date();store._s=n.getFullYear()+"-"+(n.getMonth()+1)+"-"+n.getDate();save();initStart();sel=new Date();vm=new Date(sel.getFullYear(),sel.getMonth(),1);}
+function initStart(){var s=store._s;if(!s){var n=new Date();s=n.getFullYear()+"-"+(n.getMonth()+1)+"-"+n.getDate();store._s=s;save();}var p=s.split("-");START=new Date(+p[0],+p[1]-1,+p[2]);}
+q("restart").onclick=function(){newStart();renderDay();renderCal();};
+q("srch").oninput=function(){
+var v=this.value.trim().toLowerCase(),r=q("sres"),ol=el("ol"),n=0;r.innerHTML="";if(!v){return;}
+DATA.forEach(function(d){d.groups.forEach(function(g,gi){g[1].forEach(function(_,li){
+if(n<30&&(ltitle(d,gi,li)+" "+ltext(d,gi,li)).toLowerCase().indexOf(v)>-1){n++;ol.appendChild(row(d,gi,li,"day",gname(d,gi)));}});});});
+var c=el("div","card");if(n){c.appendChild(ol);}else{c.appendChild(el("p","note",T("noRes")));}r.appendChild(c);};
+q("lang").onclick=function(){L=L==="ur"?"en":"ur";try{localStorage.setItem("apf-lang",L);}catch(e){}applyLang();};
+q("login").onclick=function(){q("uname").value=user;q("out").hidden=!user;q("modal").hidden=false;q("uname").focus();};
+q("no").onclick=function(){q("modal").hidden=true;};
+q("ok").onclick=function(){user=q("uname").value.trim().slice(0,30);try{localStorage.setItem("apf-user",user);}catch(e){}load();q("modal").hidden=true;applyLang();};
+q("out").onclick=function(){user="";try{localStorage.removeItem("apf-user");}catch(e){}load();q("modal").hidden=true;applyLang();};
+q("modal").onclick=function(e){if(e.target===q("modal")){q("modal").hidden=true;}};
+document.addEventListener("keydown",function(e){if(e.key==="Escape"){q("modal").hidden=true;q("gmodal").hidden=true;}});
+load();applyLang();
+</script>
+</body>
+</html>
